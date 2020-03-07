@@ -77,7 +77,7 @@ Here are some of notes about writing [hamzao]{.trn} in the above four methods:
   :--------|:----|:-------|:----------
   [ئ]{.ar}| [ـئ]{.ar}| [ـئـ]{.ar}| [ئـ]{.ar}
 
-  Note that [hamzao]{.trn} is seated on [yAE]{.trn} in the middle position [ـئـ]{.ar} is different from unseated [hamzao]{.trn} beween two joining letters [ـءـ]{.ar}.
+  Note that [hamzao]{.trn} is seated on [yAE]{.trn} in the middle position [ـئـ]{.ar} is different from unseated [hamzao]{.trn} between two joining letters [ـءـ]{.ar}.
 
 
 So how do we know when to write [hamzao]{.trn} unseated and when seated? And how do we choose between its three different seats? There are a set of rules that we need to follow in order to correctly write [hamzao]{.trn}. 
