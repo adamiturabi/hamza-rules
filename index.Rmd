@@ -67,7 +67,7 @@ Here are some of notes about writing [hamzao]{.trn} in the above four methods:
 
 + When unseated [hamzao]{.trn} is followed by an [Ealif]{.trn}: [ءا]{.ar},  the combination of [hamzao]{.trn} and [Ealif]{.trn} is usually written as [آ]{.ar} as a convention. Examples: [آمَنَ]{.ar} [EAmana]{.trn}, [ظَمْآن]{.ar} [PamEAn]{.trn}, [شَنَآن]{.ar} [canaEAn]{.trn}. However, when the [Ealif]{.trn} is a suffix or part of a suffix, or the [hamzao]{.trn} is doubled, or there is an [Ealif]{.trn} before the [hamzao]{.trn} then we will write [ءا]{.ar}, not [آ]{.ar}. Examples: [شَيْءَانِ]{.ar} [cayEAni]{.trn}, [سَءَّال]{.ar} [saEEAl]{.trn}, [قِرَاءَات]{.ar} [qirAEAt]{.trn}. 
 
-+ When unseated [hamzao]{.trn} comes between two letters that are joined, then it is written above the line that joins them, for example: [خَطِيءَة]{.ar} [xaTIEao]{.trn}. In this word, the [yAE]{.trn} [ي]{.ar} joins to the [tAE marbUTao]{.trn} [ة]{.ar}. So the unseated [hamzao]{.trn} is written above the joining line like so [ـءـ]{.ar}.
++ When unseated [hamzao]{.trn} comes between two letters that are joined, then it is written above the line that joins them, for example: [خَطِيءَة]{.ar} [xaTIEao]{.trn}. In this word, the [yAE]{.trn} [ي]{.ar} joins to the [tAE marbUTao]{.trn} [ة]{.ar}. So the unseated [hamzao]{.trn} is written above the joining line like so [⁠ء⁠]{.ar} [ـءـ]{.ar}.
 
 + When [hamzao]{.trn} is seated on [Ealif]{.trn}, if it has an [kasrao]{.trn}, it is written below the [Ealif]{.trn}: [إِ]{.ar}. Otherwise, it is written above the [Ealif]{.trn}: [أَ]{.ar}, [أُ]{.ar}, [أْ]{.ar}.
 
