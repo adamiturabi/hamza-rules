@@ -3,6 +3,7 @@ title: "Rules for writing hamza in the Arabic script"
 author: "adami.turabi [at] protonmail [dot] com"
 output:
   bookdown::gitbook:
+    css: mystyle.css
     split_by: "none"
     self_contained: yes
     pandoc_args: ["--lua-filter=trn.lua"]
@@ -33,11 +34,11 @@ output:
         all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
       info: yes
 ---
+
 [بسم الله الرحمن الرحيم]{.ar}
 
 [الحمد لله والصلاة والسلام على نبينا محمد. أما بعد:]{.ar}
 
-    css: mystyle.css
 
 # Introduction
 
