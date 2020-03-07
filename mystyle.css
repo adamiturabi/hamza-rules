@@ -1,7 +1,14 @@
+/*
 @import url('https://fonts.googleapis.com/css?family=Amiri&display=swap');
+@import url('fonts/Amiri-Regular.woff2') format('woff2'),
+@import url('fonts/Amiri-Regular.woff') format('woff');
+*/
 
 :lang(ar) {
-  font-family: 'Amiri', serif;
+  font-family: Amiri;
+  font-style: normal;
+  font-weight: 400;
+  /*font-family: 'Amiri', serif;*/
   /* Scheherazade */
   /*font-size: 2.1em;
   line-height: 130%;*/
@@ -11,4 +18,6 @@
   /* Markazi Text */
   font-size: 1.5em;
   line-height: 200%;
+  /*src: url('fonts/Amiri-Regular.woff2') format('woff2'),
+       url('fonts/Amiri-Regular.woff') format('woff');*/
 }
