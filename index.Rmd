@@ -42,6 +42,10 @@ output:
 
 The rules of [hamzao]{.trn} orthography in the Arabic script are quite complex. The matter is further complicated by the limitations of metal and digital typography technology. We attempt to give a comprehensive set of rules for writing [hamzao]{.trn} and some recommendations for typographers and typesetters.
 
+# Disclaimer
+
+This article is based on findings from the author's research and may have errors. Any errors reported to the author's email will be greatly appreciated.
+
 # Scope
 
 We treat only the orthography of Standard Arabic. The orthography of the Qurʾān ([الرسم العثماني]{.ar}) is not discussed.
@@ -59,7 +63,7 @@ We treat only the orthography of Standard Arabic. The orthography of the Qurʾā
 
 Here are some of notes about writing [hamzao]{.trn} in the above four methods:
 
-+ When unseated [hamzao]{.trn} is followed by an [Ealif]{.trn}: [ءا]{.ar},  the combination of [hamzao]{.trn} and [Ealif]{.trn} is usually written as [آ]{.ar} as a convention. Examples: [آمَنَ]{.ar} [EAmana]{.trn}, [ظَمْآن]{.ar} [PamEAn]{.trn}, [شَنَآن]{.ar} [canaEAn]{.trn}. However, when the [Ealif]{.trn} is a suffix or part of a suffix or the [hamzao]{.trn} is doubled, or there is an [Ealif]{.trn} before the [hamzao]{.trn} then we will write [ءا]{.ar}, not [آ]{.ar}. Examples: [شَيْءَانِ]{.ar} [cayEAni]{.trn}, [سَءَّال]{.ar} [saEEAl]{.trn}, [قِرَاءَات]{.ar} [qirAEAt]{.trn}. 
++ When unseated [hamzao]{.trn} is followed by an [Ealif]{.trn}: [ءا]{.ar},  the combination of [hamzao]{.trn} and [Ealif]{.trn} is usually written as [آ]{.ar} as a convention. Examples: [آمَنَ]{.ar} [EAmana]{.trn}, [ظَمْآن]{.ar} [PamEAn]{.trn}, [شَنَآن]{.ar} [canaEAn]{.trn}. However, when the [Ealif]{.trn} is a suffix or part of a suffix, or the [hamzao]{.trn} is doubled, or there is an [Ealif]{.trn} before the [hamzao]{.trn} then we will write [ءا]{.ar}, not [آ]{.ar}. Examples: [شَيْءَانِ]{.ar} [cayEAni]{.trn}, [سَءَّال]{.ar} [saEEAl]{.trn}, [قِرَاءَات]{.ar} [qirAEAt]{.trn}. 
 
 + When unseated [hamzao]{.trn} comes between two letters that are joined, then it is written above the line that joins them, for example: [خَطِيءَة]{.ar} [xaTIEao]{.trn}. In this word, the [yAE]{.trn} [ي]{.ar} joins to the [tAE marbUTao]{.trn} [ة]{.ar}. So the unseated [hamzao]{.trn} is written above the joining line like so [ـءـ]{.ar}.
 
@@ -156,7 +160,7 @@ There are some historical and geographical variants to the above rules. The main
 + [أَسْءِلَة]{.ar} instead of [أَسْئِلَة]{.ar}
 + [مَسْءَلَة]{.ar} instead of [مَسْأَلَة]{.ar}
 
-However, this rules does not appear to be always followed. For example, [al-marEao]{.trn} is generally always written [الْمَرْأَة]{.ar} never [الْمَرْءَة]{.ar}.
+However, this rule appears to not consistently be followed. For example, [al-marEao]{.trn} is generally always written [الْمَرْأَة]{.ar} never [الْمَرْءَة]{.ar}.
 
 A second variant is to write [hamzao]{.trn} unseated when:
 
@@ -165,7 +169,28 @@ A second variant is to write [hamzao]{.trn} unseated when:
 
 # Typographical limitations
 
-Due to what appears to have been a limitation of typographical technology in the days of typewriters, metal typrography, and early digital typography, unseated [hamzao]{.trn} between two joining letters [ـءـ]{.ar} was usually written as seated on [yAE]{.trn} instead: [ـئـ]{.ar}. So much so that we are now accustommed to seeing:
+Due to what appears to have been a limitation of typographical technology in the days of typewriters, metal typrography, and early digital typography, unseated [hamzao]{.trn} between two joining letters [ـءـ]{.ar} was usually written as seated on [yAE]{.trn} instead: [ـئـ]{.ar}. Because of this limitation we are now accustommed to seeing:
 
 + [شَيْئًا]{.ar} instead of [شَيْءًا]{.ar}
 + [خَطِيئَة]{.ar} instead of [خَطِيءَة]{.ar}
++ [هَيْئَة]{.ar} instead of [هَيْءَة]{.ar}
++ [عِبْئَيْنِ]{.ar} instead of [عِبْءَيْنِ]{.ar}
+
+and similar variants.
+
+These variants have pervaded to such a degree that many modern treatises on the rules of [hamzao]{.trn} orthography present the above as the correct way of writing, and modify their rules with exceptions to allow this writing.
+
+Fortunately, advancements in digital typography technology now allow us to revert back to the original rules. However, unfortunately, only very few computer fonts today actually implement this feature.
+
+Two fonts, of which we are aware, that do allow the preferred orthography are:
+
+1. Dr Khaled Hosny's "Amiri": https://www.amirifont.org/
+2. DecoType "Naskh": https://www.decotype.com/oneliner/
+
+With these "[hamzao]{.trn}-safe fonts" you can always use U+0621 "Arabic Letter Hamza" to type unseated [hamzao]{.trn} no matter whether it is between joining or non-joining letters. With most other fonts U+0621 "Arabic Letter Hamza" will prevent the surrounding two letters from joining.
+
+We recommend that Arabic typographers implement this much needed feature as has been implemented in the two fonts mentioned above.
+
+This issue has been discussed in detail by Thomas Milo in Unicode L2/14-109: https://unicode.org/L2/L2014/14109-inline-chars.pdf.
+
+We may also mention that there is a way of faking the correct orthography with most fonts. This is to write a combination of U+0640 "Arabic Tatweel" and U+0654 "Arabic hamza above" thus [ـٔ]{.ar} to achieve the appearance of unseated [hamzao]{.trn} between two joining letters. However, this will not work when [hamzao]{.trn} is between [lAm]{.trn} and [Ealif]{.trn} in the mandatory [lam]{.trn}-[Ealif]{.trn} ligature [لا]{.ar} (correct: [لءا]{.ar}, incorrect: [لـٔا]{.ar}). This may also affect the searching of characters in a digital document so we are hesitant to recommend this hack.
