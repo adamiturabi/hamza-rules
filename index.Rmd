@@ -7,7 +7,6 @@ output:
     self_contained: yes
     pandoc_args: ["--lua-filter=trn.lua"]
     keep_md: yes
-    css: mystyle.css
     config:
       toc:
         collapse: section
@@ -37,6 +36,8 @@ output:
 [بسم الله الرحمن الرحيم]{.ar}
 
 [الحمد لله والصلاة والسلام على نبينا محمد. أما بعد:]{.ar}
+
+    css: mystyle.css
 
 # Introduction
 
