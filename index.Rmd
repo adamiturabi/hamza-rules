@@ -45,7 +45,7 @@ Last updated: `r datetime`.
 
 # Introduction
 
-The rules of [hamzao]{.trn} orthography in the Arabic script are quite complex. The matter is further complicated by the limitations of metal and digital typography technology. We attempt to give a comprehensive set of rules for writing [hamzao]{.trn} and some recommendations for typographers and typesetters.
+The rules of [hamzao]{.trn} orthography in the Arabic script are quite complex. The matter is further complicated by the limitations of metal and digital font technology. We attempt to give a comprehensive set of rules for writing [hamzao]{.trn} and some recommendations for typographers and typesetters.
 
 # Disclaimer
 
@@ -174,7 +174,7 @@ A second variant is to write [hamzao]{.trn} unseated when:
 
 # Typographical limitations
 
-Due to what appears to have been a limitation of typographical technology in the days of typewriters, metal typrography, and early digital typography, unseated [hamzao]{.trn} between two joining letters [ـءـ]{.ar} was usually written as seated on [yAE]{.trn} instead: [ـئـ]{.ar}. Because of this limitation we are now accustommed to seeing:
+Due to what appears to have been a limitation of font technology in the days of typewriters, metal typrography, and early digital typography, unseated [hamzao]{.trn} between two joining letters [ـءـ]{.ar} was usually written as seated on [yAE]{.trn} instead: [ـئـ]{.ar}. Because of this limitation we are now accustommed to seeing:
 
 + [شَيْئًا]{.ar} instead of [شَيْءًا]{.ar}
 + [خَطِيئَة]{.ar} instead of [خَطِيءَة]{.ar}
@@ -185,7 +185,7 @@ and similar variants.
 
 These variants have pervaded to such a degree that many modern treatises on the rules of [hamzao]{.trn} orthography present the above as the correct way of writing, and modify their rules with exceptions to allow this writing.
 
-Fortunately, advancements in digital typography technology now allow us to revert back to the original rules. However, unfortunately, only very few computer fonts today actually implement this feature.
+Fortunately, advancements in digital font technology now allow us to revert back to the original rules. However, unfortunately, only very few computer fonts today actually implement this feature.
 
 Two fonts, of which we are aware, that do allow the preferred orthography are:
 
