@@ -34,6 +34,10 @@ output:
         all: ['facebook', 'twitter', 'linkedin', 'weibo', 'instapaper']
       info: yes
 ---
+```{r, results='hide', include=FALSE}
+datetime = format(Sys.time(), "%c")
+```
+Last updated: `r datetime`.
 
 [بسم الله الرحمن الرحيم]{.ar}
 
