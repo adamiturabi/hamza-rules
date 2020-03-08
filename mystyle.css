@@ -13,6 +13,12 @@
          url('./fonts/Amiri-Regular.woff') format('woff');
 }
 :lang(ar) {
+  -moz-font-feature-settings:"calt=1, liga=1, clig=1, kern=1";
+  -moz-font-feature-settings:"calt", "liga", "clig", "kern";
+  -ms-font-feature-settings:"calt", "liga", "clig", "kern";
+  -webkit-font-feature-settings:"calt", "liga", "clig", "kern";
+  font-feature-settings:"calt", "liga", "clig", "kern";
+  text-rendering: optimizeLegibility;
   font-family: AmiriWeb, serif;
   font-size: 1.5em;
   line-height: 200%;

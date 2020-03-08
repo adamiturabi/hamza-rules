@@ -41,7 +41,7 @@ datetime = format(Sys.time(), "%c")
 ```
 Last updated: `r datetime`.
 
-The Arabic fonts int this article currently do not render correctly in the Chrome and Chromium browsers. Please use Firefox or Safari instead for now.
+The Arabic fonts in this article may not render correctly in the Chrome and Chromium browsers. In this case please use Firefox or Safari instead.
 
 [بسم الله الرحمن الرحيم]{.ar}
 
