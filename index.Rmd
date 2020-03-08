@@ -48,6 +48,8 @@ Last updated: `r datetime`.
 
 The rules of [hamzao]{.trn} orthography in the Arabic script are quite complex. The matter is further complicated by the limitations of metal and digital typography technology. We attempt to give a comprehensive set of rules for writing [hamzao]{.trn} and some recommendations for typographers and typesetters.
 
+To view the Arabic text in this article correctly, install the latest version on the Amiri font from here: https://github.com/alif-type/amiri/releases
+
 # Disclaimer
 
 This article is based on findings from the author's research and may have errors. Any errors reported to the author's email will be greatly appreciated.
