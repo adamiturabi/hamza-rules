@@ -3,7 +3,7 @@
 #Rscript -e "rmarkdown::render('index.Rmd','bookdown::gitbook')"
 Rscript -e "rmarkdown::render('index.Rmd','bookdown::gitbook', output_file='docs/index.html', output_dir='docs')"
 touch docs/.nojekyll
-sed -i "/^<head>$/a <style> @import url('https://fonts.googleapis.com/css?family=Amiri&display=swap'); </style>" docs/index.html
+#sed -i "/^<head>$/a <style> @import url('https://fonts.googleapis.com/css?family=Amiri&display=swap'); </style>" docs/index.html
 #sed -i "/^<head>$/a <style> @import url('Amiri-Regular.woff') format('woff2');@import url('Amiri-Regular.woff2') format('woff'); </style>" docs/index.html
 #sed -i "/^font-family: AmiriWeb;$/a src: url('../hamza-rules/Amiri-Regular.woff2') format('woff2'), url('../hamza-rules/Amiri-Regular.woff') format('woff');" docs/index.html
 #sed -i "/^font-family: AmiriWeb;$/a src: url('https://adamiturabi.github.io/hamza-rules/Amiri-Regular.woff2') format('woff2'), url('https://adamiturabi.github.io/hamza-rules/Amiri-Regular.woff') format('woff');" docs/index.html
