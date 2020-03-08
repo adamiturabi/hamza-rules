@@ -5,7 +5,7 @@ Rscript -e "rmarkdown::render('index.Rmd','bookdown::gitbook', output_file='docs
 touch docs/.nojekyll
 #sed -i "/^<head>$/a <style> @import url('https://fonts.googleapis.com/css?family=Amiri&display=swap'); </style>" docs/index.html
 #sed -i "/^<head>$/a <style> @import url('Amiri-Regular.woff') format('woff2');@import url('Amiri-Regular.woff2') format('woff'); </style>" docs/index.html
-sed -i "/^font-family: AmiriWeb;$/a src: url('./docs/Amiri-Regular.woff2') format('woff2'), url('./docs/Amiri-Regular.woff') format('woff');" docs/index.html
+sed -i "/^font-family: AmiriWeb;$/a src: url('../docs/Amiri-Regular.woff2') format('woff2'), url('../docs/Amiri-Regular.woff') format('woff');" docs/index.html
 #sed -i "/^font-family: Amiri;$/a src: url('Amiri-Regular.ttf') format('truetype');" docs/index.html
 cp fonts/* docs/
 #Rscript -e "bookdown::render_book('index.Rmd','bookdown::gitbook')"
