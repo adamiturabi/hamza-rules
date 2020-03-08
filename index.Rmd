@@ -43,12 +43,9 @@ Last updated: `r datetime`.
 
 [الحمد لله والصلاة والسلام على نبينا محمد. أما بعد:]{.ar}
 
-
 # Introduction
 
 The rules of [hamzao]{.trn} orthography in the Arabic script are quite complex. The matter is further complicated by the limitations of metal and digital typography technology. We attempt to give a comprehensive set of rules for writing [hamzao]{.trn} and some recommendations for typographers and typesetters.
-
-To view the Arabic text in this article correctly, install the latest version on the Amiri font from here: https://github.com/alif-type/amiri/releases
 
 # Disclaimer
 
