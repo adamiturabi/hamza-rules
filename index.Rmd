@@ -143,7 +143,9 @@ So how do we know when to write [hamzao]{.trn} unseated and when seated? And how
      
 ## Prefixes and suffixes
 
-+ If [hamzao]{.trn} is in the beginning of a word, adding a prefix to the word will not alter the writing of the [hamzao]{.trn}. Examples: [لِ + أُسْتَاذِ = لِأُسْتَاذِ]{.ar}.
++ If [hamzao]{.trn} is in the beginning of a word, adding a prefix to the word will not alter the writing of the [hamzao]{.trn}. Examples:  
+  [لِ + أُسْتَاذِ = لِأُسْتَاذِ]{.ar}  
+  [الْ + آخِرَة = الْآخِرَة]{.ar}
 
 + If [hamzao]{.trn} is at the end of a word, adding a suffix to the word can, in general, alter the writing of the [hamzao]{.trn}, except in cases that have already been mentioned above. Examples:  
   [مُبْتَدَأَ + انِ = مُبْتَدَءَانِ]{.ar}  
