@@ -118,7 +118,7 @@ So how do we know when to write [hamzao]{.trn} unseated and when seated? And how
           2. If the [hamzao]{.trn} has a [kasrao]{.trn} it is written seated on [yAE]{.trn}. Example: [تَرْئِيس]{.ar} [tarEIs]{.trn}.  
           3. If the [hamzao]{.trn} has an [fatHao]{.trn} then:  
              a. If it is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the [hamzao]{.trn} is unseated followed by the [Ealif]{.trn} and the combination is written as [آ]{.ar}. Example: [مِرْآة]{.ar} [mirEAo]{.trn}, [ظَمْآن]{.ar} [PamEAn]{.trn}.  
-             b. Otherwise, if there is no [Ealif]{.trn} after the [hamzao]{.trn}, the [hamzao]{.trn} is written seated on [Ealif]{.trn}. Examples: [مَسْأَلَة]{.ar} [masEalao]{.trn}, , [الْمَرْأَة]{.ar} [almarEao]{.trn}.
+             b. Otherwise, if there is no [Ealif]{.trn} after the [hamzao]{.trn}, the [hamzao]{.trn} is written seated on [Ealif]{.trn}. Examples: [مَسْأَلَة]{.ar} [masEalao]{.trn}, [الْمَرْأَة]{.ar} [almarEao]{.trn}.
    c. If the [hamzao]{.trn} has a [sukUn]{.trn}, then look at the vowel mark on the letter preceding it:
         i. If the letter preceding [hamzao]{.trn} has a [kasrao]{.trn}, the [hamzao]{.trn} is written seated on [yAE]{.trn}. Example: [بِئْسَ]{.ar} [biEsa]{.trn}.
        ii. If the letter preceding [hamzao]{.trn} has a [Dammao]{.trn}, the [hamzao]{.trn} is written seated on [wAw]{.trn}. Example: [سُؤْلَكَ]{.ar} [suElaka]{.trn}.
@@ -180,7 +180,7 @@ A second variant is to write [hamzao]{.trn} unseated when:
 
 # Typographical limitations
 
-Due to what appears to have been a limitation of font technology in the days of typewriters, metal typrography, and early digital typography, unseated [hamzao]{.trn} between two joining letters [ـءـ]{.ar} was usually written as seated on [yAE]{.trn} instead: [ـئـ]{.ar}. Because of this limitation we are now accustommed to seeing:
+Due to what appears to have been a limitation of font technology in the days of typewriters, metal typography, and early digital typography, unseated [hamzao]{.trn} between two joining letters [ـءـ]{.ar} was usually written as seated on [yAE]{.trn} instead: [ـئـ]{.ar}. Because of this limitation we are now accustomed to seeing:
 
 + [شَيْئًا]{.ar} instead of [شَيْءًا]{.ar}
 + [خَطِيئَة]{.ar} instead of [خَطِيءَة]{.ar}
@@ -189,7 +189,7 @@ Due to what appears to have been a limitation of font technology in the days of 
 
 and similar variants.
 
-These variants have pervaded to such a degree that many modern treatises on the rules of [hamzao]{.trn} orthography present the above as the correct way of writing, and modify their rules with exceptions to allow this writing.
+These variants have pervaded to such a degree that many modern explanations on the rules of [hamzao]{.trn} orthography present the above as the correct way of writing, and modify their rules with exceptions to allow this writing.
 
 Fortunately, advancements in digital font technology now allow us to revert back to the original rules. However, unfortunately, only very few computer fonts today actually implement this feature.
 
