@@ -72,9 +72,9 @@ We treat only the orthography of Standard Arabic. The orthography of the Qurʾā
 
 Here are some of notes about writing [hamzao]{.trn} in the above four methods:
 
-+ When unseated [hamzao]{.trn} is followed by an [Ealif]{.trn}: [ءا]{.ar},  the combination of [hamzao]{.trn} and [Ealif]{.trn} is usually written as [آ]{.ar} as a convention. Examples: [آمَنَ]{.ar} [EAmana]{.trn}, [ظَمْآن]{.ar} [PamEAn]{.trn}, [شَنَآن]{.ar} [canaEAn]{.trn}. However, when the [Ealif]{.trn} is a suffix or part of a suffix, or the [hamzao]{.trn} is doubled, or there is an [Ealif]{.trn} before the [hamzao]{.trn} then we will write [ءا]{.ar}, not [آ]{.ar}. Examples: [شَيْءَانِ]{.ar} [cayEAni]{.trn}, [سَءَّال]{.ar} [saEEAl]{.trn}, [قِرَاءَات]{.ar} [qirAEAt]{.trn}. 
-
 + When unseated [hamzao]{.trn} comes between two letters that are joined, then it is written above the line that joins them, for example: [خَطِيءَة]{.ar} [xaTIEao]{.trn}. In this word, the [yAE]{.trn} [ي]{.ar} joins to the [tAE marbUTao]{.trn} [ة]{.ar}.
+
++ When unseated [hamzao]{.trn} is followed by an [Ealif]{.trn}: [ءا]{.ar},  the combination of [hamzao]{.trn} and [Ealif]{.trn} is usually written as [آ]{.ar} as a convention. Examples: [آمَنَ]{.ar} [EAmana]{.trn}, [ظَمْآن]{.ar} [PamEAn]{.trn}, [شَنَآن]{.ar} [canaEAn]{.trn}. However, when the [Ealif]{.trn} is a suffix or part of a suffix, or the [hamzao]{.trn} is doubled, or there is an [Ealif]{.trn} before the [hamzao]{.trn} then we will write [ءا]{.ar}, not [آ]{.ar}. Examples: [شَيْءَانِ]{.ar} [cayEAni]{.trn}, [سَءَّال]{.ar} [saEEAl]{.trn}, [قِرَاءَات]{.ar} [qirAEAt]{.trn}. 
 
 + When [hamzao]{.trn} is seated on [Ealif]{.trn}, if it has an [kasrao]{.trn}, it is written below the [Ealif]{.trn}: [إِ]{.ar}. Otherwise, it is written above the [Ealif]{.trn}: [أَ]{.ar}, [أُ]{.ar}, [أْ]{.ar}.
 
@@ -161,7 +161,12 @@ So how do we know when to write [hamzao]{.trn} unseated and when seated? And how
 
 1. If there is an [Ealif]{.trn} before a unseated [hamzao]{.trn} [اء]{.ar}, then we don't add a silent [Ealif]{.trn} when writing [tanwIn al-fatH]{.trn}. For example [دَاء]{.ar} becomes [دَاءً]{.ar} [dAEan]{.trn}, not [دَاءًا]{.ar}.
 
-2. Otherwise, we add the silent [Ealif]{.trn} after the [hamzao]{.trn} so that the [hamzao]{.trn} is now in the middle of the word with a suffix [Ealif]{.trn} after it. We now pretend that the [hamzao]{.trn} has an [fatHao]{.trn} and that the [Ealif]{.trn} after it is a long-[A]{.trn} vowel. Then we go through the rules for writing [hamzao]{.trn} in the middle of a word (given above) to determine how [hamzao]{.trn} will be written. We then write the [an]{.trn}-mark on the [hamzao]{.trn}. For example [مُبْتَدَأ]{.ar} becomes [مُبْتَدَءًا]{.ar} [mubtadaEan]{.trn}, [مُبْتَدِئ]{.ar} becomes [مُبْتَدِئًا]{.ar} [mubtadiEan]{.trn}, [بُطْء]{.ar} becomes [بُطْءًا]{.ar} [buTEan]{.trn}, [شَيْء]{.ar} becomes [شَيْءًا]{.ar} [cayEan]{.trn}.
+2. Otherwise, we add the silent [Ealif]{.trn} after the [hamzao]{.trn} so that the [hamzao]{.trn} is now in the middle of the word with a suffix [Ealif]{.trn} after it. We now pretend that the [hamzao]{.trn} has an [fatHao]{.trn} and that the [Ealif]{.trn} after it is a long-[A]{.trn} vowel. Then we go through the rules for writing [hamzao]{.trn} in the middle of a word (given above) to determine how [hamzao]{.trn} will be written. We then write the [an]{.trn}-mark on the [hamzao]{.trn}. Examples:
+
++ [مُبْتَدَأ]{.ar} becomes [مُبْتَدَأٌ، مُبْتَدَءًا, مُبْتَدَإٍ]{.ar} 
++ [مَلْجَأ]{.ar} becomes [مَلْجَأٌ، مَلْجَءًا، مَلْجَإٍ]{.ar}
++ [جُزْء]{.ar} becomes [جُزْءٌ، جُزْءًا، جُزْءٍ]{.ar}
++ [شَيْء]{.ar} becomes [شَيْءٌ، شَيْءًا، شَيْءٍ]{.ar}
 
 # Variants
 
