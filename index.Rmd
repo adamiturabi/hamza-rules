@@ -104,9 +104,9 @@ Precedence | Vowel | Default seat | Orthography
 6. | [a]{.trn}            | [Ealif]{.trn} | [أ]{.ar}
 7. | [sukUn]{.trn}        | -             | -
 
-Consider the vowel on the syllable before the [hamzao]{.trn} and that on the [hamzao]{.trn} itself. Determine which of the two vowels is higher in precedence in the above table. The prevailing vowel's default seat will be the seat of the [hamzao]{.trn}.
+Consider the vowel on the consonant before the [hamzao]{.trn} and the _shortened_ vowel on the [hamzao]{.trn} itself. Determine which of the two vowels is higher in precedence in the above table. The prevailing vowel's default seat will be the seat of the [hamzao]{.trn}.
 
-This is the basic underlying principle although there are a few exceptions. We now give a comrehensive set of rules and many examples that should exemplify this principle and the exceptions.
+This is the basic underlying principle although there are a few exceptions. We now give a comprehensive set of rules and many examples that should exemplify this principle and the exceptions.
 
 ## Ordered set of rules
 
@@ -189,7 +189,7 @@ This is the basic underlying principle although there are a few exceptions. We n
 
 # Variants
 
-There are some historical and geographical variants to the above rules. The main one is a variant of rule 2.b.ii above. In this variant, when the letter before [hamzao]{.trn} has a [sukUn]{.trn}, the [hamzao]{.trn} is generally written unseated. So they write:
+There are some historical and regional variants to the above rules. The main one is a variant of rule 2.b.ii above. In this variant, when the letter before [hamzao]{.trn} has a [sukUn]{.trn}, the [hamzao]{.trn} is generally written unseated. So they write:
 
 + [مَسْءُول]{.ar} instead of [مَسْؤُول]{.ar}
 + [أَسْءِلَة]{.ar} instead of [أَسْئِلَة]{.ar}
