@@ -204,7 +204,7 @@ A second variant is to write [hamzao]{.trn} unseated when:
 
 # Typographical limitations
 
-Due to what appears to have been a limitation of font technology in the days of typewriters, metal typography, and early digital typography, unseated [hamzao]{.trn} between two joining letters [ـءـ]{.ar} was usually written as seated on [yAE]{.trn} instead: [ـئـ]{.ar}. Because of this limitation we are now accustomed to seeing:
+Due to what appears to have been a limitation of typesetting technology in the days of typewriters, metal typography, and early digital typography, unseated [hamzao]{.trn} between two joining letters [ـءـ]{.ar} was usually written as seated on [yAE]{.trn} instead: [ـئـ]{.ar}. Because of this limitation we are now accustomed to seeing:
 
 + [شَيْئًا]{.ar} instead of [شَيْءًا]{.ar}
 + [خَطِيئَة]{.ar} instead of [خَطِيءَة]{.ar}
