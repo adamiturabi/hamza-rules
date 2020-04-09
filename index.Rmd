@@ -86,8 +86,27 @@ Here are some of notes about writing [hamzao]{.trn} in the above four methods:
 
   Note that [hamzao]{.trn} is seated on [yAE]{.trn} in the middle position [ـئـ]{.ar} is different from unseated [hamzao]{.trn} between two joining letters [ـءـ]{.ar}.
 
+So how do we know when to write [hamzao]{.trn} unseated and when seated? And how do we choose between its three different seats? There are a set of rules that we need to follow in order to correctly write [hamzao]{.trn}. Before we give the rules we will first present the underlying principle behind the rules.
 
-So how do we know when to write [hamzao]{.trn} unseated and when seated? And how do we choose between its three different seats? There are a set of rules that we need to follow in order to correctly write [hamzao]{.trn}. 
+## Underlying principle of determining the seat of [hamzao]{.trn}
+
+The most general case is when [hamzao]{.trn} is in the middle of a word. 
+
+Arabic has three short vowels, three long vowels, two diphthongs, and a [sukUn]{.trn}. Each of these has an order of precedence and a default [hamzao]{.trn} seat (except for [sukUn]{.trn} which is last in precedence and therefore never determines the seat).
+
+Precedence | Vowel | Default seat | Orthography
+:--|:------|:--------|:------
+1. | [I]{.trn}/[ay]{.trn} | unseated      | [ء]{.ar}
+2. | [i]{.trn}            | [yAE]{.trn}   | [ئ]{.ar}
+3. | [U]{.trn}/[aw]{.trn} | unseated      | [ء]{.ar}
+4. | [u]{.trn}            | [wAw]{.trn}   | [ؤ]{.ar}
+5. | [A]{.trn}            | unseated      | [ء]{.ar}
+6. | [a]{.trn}            | [Ealif]{.trn} | [أ]{.ar}
+7. | [sukUn]{.trn}        | -             | -
+
+Consider the vowel on the syllable before the [hamzao]{.trn} and that on the [hamzao]{.trn} itself. Determine which of the two vowels is higher in precedence in the above table. The prevailing vowel's default seat will be the seat of the [hamzao]{.trn}.
+
+This is the basic underlying principle although there are a few exceptions. We now give a comrehensive set of rules and many examples that should exemplify this principle and the exceptions.
 
 ## Ordered set of rules
 
@@ -163,7 +182,7 @@ So how do we know when to write [hamzao]{.trn} unseated and when seated? And how
 
 2. Otherwise, we add the silent [Ealif]{.trn} after the [hamzao]{.trn} so that the [hamzao]{.trn} is now in the middle of the word with a suffix [Ealif]{.trn} after it. We now pretend that the [hamzao]{.trn} has an [fatHao]{.trn} and that the [Ealif]{.trn} after it is a long-[A]{.trn} vowel. Then we go through the rules for writing [hamzao]{.trn} in the middle of a word (given above) to determine how [hamzao]{.trn} will be written. We then write the [an]{.trn}-mark on the [hamzao]{.trn}. Examples:
 
-+ [مُبْتَدَأ]{.ar} becomes [مُبْتَدَأٌ، مُبْتَدَءًا, مُبْتَدَإٍ]{.ar} 
++ [مُبْتَدَأ]{.ar} becomes [مُبْتَدَأٌ، مُبْتَدَءًا، مُبْتَدَإٍ]{.ar} 
 + [مَلْجَأ]{.ar} becomes [مَلْجَأٌ، مَلْجَءًا، مَلْجَإٍ]{.ar}
 + [جُزْء]{.ar} becomes [جُزْءٌ، جُزْءًا، جُزْءٍ]{.ar}
 + [شَيْء]{.ar} becomes [شَيْءٌ، شَيْءًا، شَيْءٍ]{.ar}
