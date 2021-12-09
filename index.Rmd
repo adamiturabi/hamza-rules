@@ -92,7 +92,7 @@ So how do we know when to write [hamzao]{.trn} unseated and when seated? And how
 
 The most general case is when [hamzao]{.trn} is in the middle of a word. 
 
-Arabic has three short vowels, three long vowels, two diphthongs, and a [sukUn]{.trn}. Each of these has an order of precedence and a default [hamzao]{.trn} seat (except for [sukUn]{.trn} which is last in precedence and therefore never determines the seat).
+Arabic has three short vowels, three long vowels, two diphthongs, and a [sukUn]{.trn}. Each of these has an order of precedence and a default [hamzao]{.trn} seat.
 
 Precedence | Vowel | Default seat | Orthography
 :--|:------|:--------|:------
@@ -102,7 +102,7 @@ Precedence | Vowel | Default seat | Orthography
 4. | [u]{.trn}            | [wAw]{.trn}   | [ؤ]{.ar}
 5. | [A]{.trn}            | unseated      | [ء]{.ar}
 6. | [a]{.trn}            | [Ealif]{.trn} | [أ]{.ar}
-7. | [sukUn]{.trn}        | -             | -
+7. | [sukUn]{.trn}        | -             | [ء]{.ar}
 
 Consider the vowel on the consonant before the [hamzao]{.trn} and the _shortened_ vowel on the [hamzao]{.trn} itself. Determine which of the two vowels is higher in precedence in the above table. The prevailing vowel's default seat will be the seat of the [hamzao]{.trn}.
 
@@ -224,8 +224,10 @@ Two fonts, of which we are aware, that do allow the preferred orthography are:
 
 With these "[hamzao]{.trn}-safe fonts" you can always use U+0621 "Arabic Letter Hamza" to type unseated [hamzao]{.trn} no matter whether it is between joining or non-joining letters. With most other fonts U+0621 "Arabic Letter Hamza" will prevent the surrounding two letters from joining.
 
-We recommend that Arabic typographers implement this much needed feature as has been implemented in the two fonts mentioned above.
-
 This issue has been discussed in detail by Thomas Milo in Unicode L2/14-109: https://unicode.org/L2/L2014/14109-inline-chars.pdf.
 
-We may also mention that there is a way of faking the correct orthography with most fonts. This is to write a combination of U+0640 "Arabic Tatweel" and U+0654 "Arabic hamza above" thus [ـٔ]{.ar} to achieve the appearance of unseated [hamzao]{.trn} between two joining letters. However, this will not work when [hamzao]{.trn} is between [lAm]{.trn} and [Ealif]{.trn} in the mandatory [lam]{.trn}-[Ealif]{.trn} ligature [لا]{.ar} (correct: [لءا]{.ar}, incorrect: [لـٔا]{.ar}). This may also affect the searching of characters in a digital document so we are hesitant to recommend this hack.
+However, the problem remains that this is a font-specific hack. It seems that the Unicode has no official guidance in this regard.
+
+Another solution, that woks with most other fonts, is to fake the correct orthography using a combination of U+0640 "Arabic Tatweel" and U+0654 "Arabic hamza above" thus [ـٔ]{.ar} to achieve the appearance of unseated [hamzao]{.trn} between two joining letters. However, this will not work when [hamzao]{.trn} is between [lAm]{.trn} and [Ealif]{.trn} in the mandatory [lam]{.trn}-[Ealif]{.trn} ligature [لا]{.ar} (correct: [لءا]{.ar}, incorrect: [لـٔا]{.ar}). Such words are rare in Standard Arabic but do exist, e.g. [لَءَّال]{.ar} [laEEAl]{.trn} meaning "pearl-seller". Perhaps the official soltion out to be that fonts absorb the tatweel and not let it affect the [lAm]{.trn}-[Ealif]{.trn} ligature when it it is input between [lAm]{.trn} and [Ealif]{.trn}.
+
+This may also affect the searching of characters in a digital document.
