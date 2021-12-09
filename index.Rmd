@@ -21,7 +21,7 @@ output:
       search: yes
       fontsettings:
         theme: white
-        family: sans
+        family: serif
         size: 2
       sharing:
         facebook: yes
@@ -102,7 +102,7 @@ Precedence | Vowel | Default seat | Orthography
 4. | [u]{.trn}            | [wAw]{.trn}   | [ؤ]{.ar}
 5. | [A]{.trn}            | unseated      | [ء]{.ar}
 6. | [a]{.trn}            | [Ealif]{.trn} | [أ]{.ar}
-7. | [sukUn]{.trn}        | -             | [ء]{.ar}
+7. | [sukUn]{.trn}        | unseated      | [ء]{.ar}
 
 Consider the vowel on the consonant before the [hamzao]{.trn} and the _shortened_ vowel on the [hamzao]{.trn} itself. Determine which of the two vowels is higher in precedence in the above table. The prevailing vowel's default seat will be the seat of the [hamzao]{.trn}.
 
@@ -228,6 +228,6 @@ This issue has been discussed in detail by Thomas Milo in Unicode L2/14-109: htt
 
 However, the problem remains that this is a font-specific hack. It seems that the Unicode has no official guidance in this regard.
 
-Another solution, that woks with most other fonts, is to fake the correct orthography using a combination of U+0640 "Arabic Tatweel" and U+0654 "Arabic hamza above" thus [ـٔ]{.ar} to achieve the appearance of unseated [hamzao]{.trn} between two joining letters. However, this will not work when [hamzao]{.trn} is between [lAm]{.trn} and [Ealif]{.trn} in the mandatory [lam]{.trn}-[Ealif]{.trn} ligature [لا]{.ar} (correct: [لءا]{.ar}, incorrect: [لـٔا]{.ar}). Such words are rare in Standard Arabic but do exist, e.g. [لَءَّال]{.ar} [laEEAl]{.trn} meaning "pearl-seller". Perhaps the official soltion out to be that fonts absorb the tatweel and not let it affect the [lAm]{.trn}-[Ealif]{.trn} ligature when it it is input between [lAm]{.trn} and [Ealif]{.trn}.
+Another solution, that woks with most other fonts, is to fake the correct orthography using a combination of U+0640 "Arabic Tatweel" and U+0654 "Arabic hamza above" thus [ـٔ]{.ar} to achieve the appearance of unseated [hamzao]{.trn} between two joining letters. However, this will not work when [hamzao]{.trn} is between [lAm]{.trn} and [Ealif]{.trn} in the mandatory [lam]{.trn}-[Ealif]{.trn} ligature [لا]{.ar} (correct: [لءا]{.ar}, incorrect: [لـٔا]{.ar}). Such words are rare in Standard Arabic but do exist, e.g. [لَءَّال]{.ar} [laEEAl]{.trn} meaning "pearl-seller". Perhaps the official solution ought to be that fonts absorb the tatweel and not let it affect the [lAm]{.trn}-[Ealif]{.trn} ligature when it it is input between [lAm]{.trn} and [Ealif]{.trn}.
 
-This may also affect the searching of characters in a digital document.
+Beware that using tatweel in this manner may also affect the searching of characters in a digital document.
