@@ -1960,7 +1960,7 @@ line-height: 200%;
 </div>
 <div id="preface" class="section level1 unnumbered">
 <h1>Preface</h1>
-<p>Last updated: Thu 09 Dec 2021 09:08:23 AM PKT.</p>
+<p>Last updated: Fri 10 Dec 2021 03:04:18 PM PKT.</p>
 <p>The Arabic fonts in this article may not render correctly in the Chrome and Chromium browsers. In this case please use Firefox or Safari instead.</p>
 <p><span lang="ar" dir="rtl">بسم الله الرحمن الرحيم</span></p>
 <p><span lang="ar" dir="rtl">الحمد لله والصلاة والسلام على نبينا محمد. أما بعد:</span></p>
@@ -2226,7 +2226,7 @@ These set of rules apply even if the <em>hamzaḧ</em> or the previous letter is
 <p>With these “<em>hamzaḧ</em>-safe fonts” you can always use U+0621 “Arabic Letter Hamza” to type unseated <em>hamzaḧ</em> no matter whether it is between joining or non-joining letters. With most other fonts U+0621 “Arabic Letter Hamza” will prevent the surrounding two letters from joining.</p>
 <p>This issue has been discussed in detail by Thomas Milo in Unicode L2/14-109: <a href="https://unicode.org/L2/L2014/14109-inline-chars.pdf" class="uri">https://unicode.org/L2/L2014/14109-inline-chars.pdf</a>.</p>
 <p>However, the problem remains that this is a font-specific hack. It seems that the Unicode has no official guidance in this regard.</p>
-<p>Another solution, that woks with most other fonts, is to fake the correct orthography using a combination of U+0640 “Arabic Tatweel” and U+0654 “Arabic hamza above” thus <span lang="ar" dir="rtl">ـٔ</span> to achieve the appearance of unseated <em>hamzaḧ</em> between two joining letters. However, this will not work when <em>hamzaḧ</em> is between <em>lām</em> and <em>ʾalif</em> in the mandatory <em>lam</em>-<em>ʾalif</em> ligature <span lang="ar" dir="rtl">لا</span> (correct: <span lang="ar" dir="rtl">لءا</span>, incorrect: <span lang="ar" dir="rtl">لـٔا</span>). Such words are rare in Standard Arabic but do exist, e.g. <span lang="ar" dir="rtl">لَءَّال</span> <em>laʾʾāl</em> meaning “pearl-seller”. Perhaps the official solution ought to be that fonts absorb the tatweel and not let it affect the <em>lām</em>-<em>ʾalif</em> ligature when it it is input between <em>lām</em> and <em>ʾalif</em>.</p>
+<p>Another solution, that woks with most other fonts, is to fake the correct orthography using a combination of U+0640 “Arabic Tatweel” and U+0654 “Arabic hamza above” thus <span lang="ar" dir="rtl">ـٔ</span> to achieve the appearance of unseated <em>hamzaḧ</em> between two joining letters. However, this will not work when <em>hamzaḧ</em> is between <em>lām</em> and <em>ʾalif</em> in the mandatory <em>lam</em>-<em>ʾalif</em> ligature <span lang="ar" dir="rtl">لا</span> (correct: <span lang="ar" dir="rtl">لءا</span>, incorrect: <span lang="ar" dir="rtl">لـٔا</span>). Such words are rare in Standard Arabic but do exist, e.g. <span lang="ar" dir="rtl">لَءَّال</span> <em>laʾʾāl</em> meaning “pearl-seller”, and <span lang="ar" dir="rtl">مِلْءًا</span>. Perhaps the official solution ought to be that fonts absorb the tatweel and not let it affect the <em>lām</em>-<em>ʾalif</em> ligature when it it is input between <em>lām</em> and <em>ʾalif</em>.</p>
 <p>Beware that using tatweel in this manner may also affect the searching of characters in a digital document.</p>
 </div>
             </section>
