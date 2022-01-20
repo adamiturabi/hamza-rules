@@ -116,7 +116,7 @@ This is the basic underlying principle although there are a few exceptions. We n
 
 2. If [hamzao]{.trn} occurs in the middle of a word:
    a. If there is a long vowel or diphthong before the [hamzao]{.trn}:
-        i. If the [hamzao]{.trn} is after a long-[I]{.trn} vowel or [ay]{.trn} diphthong, then the [hamzao]{.trn} will be written unseated. Examples:  
+        i. If the [hamzao]{.trn} is after a long-[I]{.trn} vowel or [ay]{.trn} diphthong, then the [hamzao]{.trn} will be written unseated. (Note: if the [hamzao]{.trn} has a [fatHao]{.trn} and is not doubled and is followed by an [Ealif]{.trn} which is not part of a suffix, then the combination of unseated [hamzao]{.trn} and [Ealif]{.trn} is written as [آ]{.ar}.) Examples:  
            [هَيْءَة]{.ar} [hayEao]{.trn}, [خَطِيءَة]{.ar} [xaTIEao]{.trn}  
            [بَرِيءُونَ]{.ar} [barIEUna]{.trn}, [بَرِيءَانِ]{.ar} [barIEAni]{.trn}, [بَرِيءِينَ]{.ar} [barIEIna]{.trn}, [بَرِيءَيْنِ]{.ar} [barIEayni]{.trn}  
            [شَيْءُهُ]{.ar} [cayEuhu]{.trn}, [شَيْءَهُ]{.ar} [cayEahu]{.trn}, [شَيْءِهِ]{.ar} [cayEihi]{.trn}, [شَيْءَانِ]{.ar} [cayEAni]{.trn}, [شَيْءَيْنِ]{.ar} [cayEayni]{.trn}  
@@ -124,8 +124,8 @@ This is the basic underlying principle although there are a few exceptions. We n
        ii. If the [hamzao]{.trn} is after a long-[U]{.trn} vowel or [aw]{.trn} diphthong, then:  
            1. If the [hamzao]{.trn} has an [kasrao]{.trn} it is written seated on [yAE]{.trn}. Examples:
               [سُوئِهِ]{.ar} [sUEihi]{.trn}, [ضَوْئِهِ]{.ar} [DawEihi]{.trn}  
-           2. Otherwise, the [hamzao]{.trn} is written unseated. Examples:
-              [سُوءَهُ]{.ar} [sUEahu]{.trn}, [سُوءَانِ]{.ar} [sUEAni]{.trn},  [تَوْءَم]{.ar} [tawEam]{.trn}, [ضَوْءَهُ]{.ar} [DawEahu]{.trn},  [ضَوْءَانِ]{.ar} [DawEAni]{.trn},  [سُوءُهُ]{.ar} [sUEuhu]{.trn},  [يَسُوءُونَ]{.ar} [yasUEUna]{.trn}  
+           2. Otherwise, the [hamzao]{.trn} is written unseated. (Note: if the [hamzao]{.trn} has a [fatHao]{.trn} and is not doubled and is followed by an [Ealif]{.trn} which is not part of a suffix, then the combination of unseated [hamzao]{.trn} and [Ealif]{.trn} is written as [آ]{.ar}.) Examples:
+              [سُوءَهُ]{.ar} [sUEahu]{.trn}, [سُوءَانِ]{.ar} [sUEAni]{.trn},  [تَوْءَم]{.ar} [tawEam]{.trn}, [ضَوْءَهُ]{.ar} [DawEahu]{.trn},  [ضَوْءَانِ]{.ar} [DawEAni]{.trn},  [سُوءُهُ]{.ar} [sUEuhu]{.trn},  [يَسُوءُونَ]{.ar} [yasUEUna]{.trn}, [نُوآنٌ]{.ar} [nUEAnun]{.trn}.
       iii. If the [hamzao]{.trn} is after a long [A]{.trn}-vowel, then:
            1. If the [hamzao]{.trn} has an [kasrao]{.trn} it is written seated on [yAE]{.trn}. Example: [سَائِل]{.ar} [sAEil]{.trn}.  
            2. If the [hamzao]{.trn} has an [Dammao]{.trn} it is written seated on [wAw]{.trn}. Example: [تَسَاؤُل]{.ar} [tasAEul]{.trn}.  
