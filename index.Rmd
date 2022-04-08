@@ -194,7 +194,7 @@ There are some historical and regional variants to the above rules. The main one
 + [أَسْءِلَة]{.ar} instead of [أَسْئِلَة]{.ar}
 + [مَسْءَلَة]{.ar} instead of [مَسْأَلَة]{.ar}
 
-However, this rule appears to not consistently be followed. For example, [al-marEao]{.trn} is generally always written [الْمَرْأَة]{.ar} never [الْمَرْءَة]{.ar}.
+However, this rule appears to be not consistently followed. For example, [al-nacEao]{.trn} is generally always written [النَّشْأَة]{.ar} never [النَّشْءَة]{.ar}.
 
 A second variant is to write hamza unseated when:
 
