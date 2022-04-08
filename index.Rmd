@@ -196,10 +196,10 @@ There are some historical and regional variants to the above rules. The main one
 
 However, this rule appears to be not consistently followed. For example, [al-nacEao]{.trn} is generally always written [النَّشْأَة]{.ar} never [النَّشْءَة]{.ar}.
 
-A second variant is to write hamza unseated when:
+A second variant is to avoid the repetition of vowel letters like [و]{.ar} and [ي]{.ar}. So they write:
 
-1. it has a [Dammao]{.trn} and is followed by a long-[U]{.trn} vowel. Example: [رُءُوس]{.ar} instead of [رُؤُوس]{.ar}.
-1. it has a [kasrao]{.trn} and is followed by a long-[I]{.trn} vowel. Example: [رَءِيس]{.ar} instead of [رَئِيس]{.ar}.
+1. [رُءُوس]{.ar} instead of [رُؤُوس]{.ar}.
+2. [رَءِيس]{.ar} instead of [رَئِيس]{.ar}.
 
 # Typographical limitations
 
