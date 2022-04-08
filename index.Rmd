@@ -1,6 +1,6 @@
 ---
 title: "Rules for writing hamza in the Arabic script"
-author: "adami.turabi [at] protonmail [dot] com"
+author: "https://github.com/adamiturabi/hamza-rules"
 output:
   bookdown::gitbook:
     css: mystyle.css
@@ -49,11 +49,11 @@ The Arabic fonts in this article may not render correctly in the Chrome and Chro
 
 # Introduction
 
-The rules of [hamzao]{.trn} orthography in the Arabic script are quite complex. The matter is further complicated by the limitations of metal and digital font technology. We attempt to give a comprehensive set of rules for writing [hamzao]{.trn} and some recommendations for typographers and typesetters.
+The rules of how to write hamza in the Arabic script are quite complex. The matter is further complicated by the limitations of metal and digital font technology. We attempt to give a comprehensive set of rules for writing [hamzao]{.trn} and some recommendations for typographers and typesetters.
 
 # Disclaimer
 
-This article is based on findings from the author's research and may have errors. Any errors reported to the author's email will be greatly appreciated.
+This article is based on findings from the author's research. Any errors reported as issues at https://github.com/adamiturabi/hamza-rules will be greatly appreciated.
 
 # Scope
 
@@ -121,7 +121,7 @@ This is the basic underlying principle although there are a few exceptions. We n
            [بَرِيءُونَ]{.ar} [barIEUna]{.trn}, [بَرِيءَانِ]{.ar} [barIEAni]{.trn}, [بَرِيءِينَ]{.ar} [barIEIna]{.trn}, [بَرِيءَيْنِ]{.ar} [barIEayni]{.trn}  
            [شَيْءُهُ]{.ar} [cayEuhu]{.trn}, [شَيْءَهُ]{.ar} [cayEahu]{.trn}, [شَيْءِهِ]{.ar} [cayEihi]{.trn}, [شَيْءَانِ]{.ar} [cayEAni]{.trn}, [شَيْءَيْنِ]{.ar} [cayEayni]{.trn}  
            [مَجِيءُهُ]{.ar} [majIEuhu]{.trn}, [مَجِيءَهُ]{.ar} [majIEahu]{.trn}, [مَجِيءِهِ]{.ar} [majIEihi]{.trn}  
-           [اسْتَيْءَاس]{.ar} [EistayEAs]{.trn}, [اسْتِيءَار]{.ar} [EistIEAr]{.trn}, [اسْتِيءَال]{.ar} [EistIEAl]{.trn}.
+           [اسْتِيءَاس]{.ar} [EistiIEAs]{.trn}, [اسْتِيءَار]{.ar} [EistIEAr]{.trn}, [اسْتِيءَال]{.ar} [EistIEAl]{.trn}.
        ii. If the [hamzao]{.trn} is after a long-[U]{.trn} vowel or [aw]{.trn} diphthong, then:  
            1. If the [hamzao]{.trn} has an [kasrao]{.trn} it is written seated on [yAE]{.trn}. Examples:
               [سُوئِهِ]{.ar} [sUEihi]{.trn}, [ضَوْئِهِ]{.ar} [DawEihi]{.trn}  
