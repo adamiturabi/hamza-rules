@@ -51,8 +51,6 @@ The Arabic fonts in this article may not render correctly in the Chrome and Chro
 
 The rules of how to write hamza in the Arabic script are quite complex. The matter is further complicated by the limitations of metal and digital font technology. We attempt to give a comprehensive set of rules for writing hamza and some recommendations for typographers and typesetters.
 
-# Disclaimer
-
 This article is based on findings from the author's research. Any errors reported as issues at https://github.com/adamiturabi/hamza-rules will be greatly appreciated.
 
 # Scope
