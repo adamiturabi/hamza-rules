@@ -36,11 +36,6 @@ output:
 ---
 # Preface{-}
 
-```{r, results='hide', include=FALSE}
-datetime = format(Sys.time(), "%c")
-```
-Last updated: `r datetime`.
-
 The Arabic fonts in this article may not render correctly in the Chrome and Chromium browsers. In this case please use Firefox or Safari instead.
 
 [بسم الله الرحمن الرحيم]{.ar}
