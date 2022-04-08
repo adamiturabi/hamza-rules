@@ -1,5 +1,5 @@
 ---
-title: "Rules for writing hamza in the Arabic script"
+title: "Rules for how to write hamza in the Arabic script"
 author: "https://github.com/adamiturabi/hamza-rules"
 output:
   bookdown::gitbook:
