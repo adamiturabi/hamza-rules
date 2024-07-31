@@ -260,13 +260,13 @@ Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [Eali
 
 ## Variants
 
-There are some historical and regional variants to the above rules. The main one is a variant of rule 2.b.ii above. In this variant, when the letter before hamza has a [sukUn]{.trn}, the hamza is generally written unseated. So they write:
+There are some historical and regional variants to the above rules. The main one is when the letter before hamza has a [sukUn]{.trn}, the hamza is generally written unseated. So with this variant, we write:
 
 + [مَسْءُول]{.ar} instead of [مَسْؤُول]{.ar}
 + [أَسْءِلَة]{.ar} instead of [أَسْئِلَة]{.ar}
 + [مَسْءَلَة]{.ar} instead of [مَسْأَلَة]{.ar}
 
-However, this rule appears to be not consistently followed. For example, [al-nacEao]{.trn} is generally always written [النَّشْأَة]{.ar} never [النَّشْءَة]{.ar}.
+However, this rule appears to be not consistently followed. For example, [nacEah]{.trn} is generally always written [نَشْأَة]{.tradar} never [نَشْءَة]{.tradar}.
 
 A second variant is to avoid the repetition of vowel letters like [و]{.ar} and [ي]{.ar}. So they write:
 
