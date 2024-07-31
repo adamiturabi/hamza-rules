@@ -65,6 +65,8 @@ hamza is written in four different ways:
 Here are some of notes about writing hamza in the above four methods:
 
 + When unseated hamza comes between two letters that are joined, then it is written above the line that joins them, for example: [خَطِيءَة]{.ar} [xaTIEao]{.trn}. In this word, the [yAE]{.trn} [ي]{.ar} joins to the [tAE marbUTao]{.trn} [ة]{.ar}.
+  
+  As a special case, when unseated hamza comes between joined [lAm]{.trn2} and [Ealif]{.trn2} ([لا]{.ar}), then it is positioned between them thus: [لءا]{.ar}. (In most cases, this is replaced with [لآ]{.ar} as we will explain in the next point below.) And this is different from hamzah on the [Ealif]{.trn2} following the [lAm]{.trn2}: [لأ]{.ar}.
 
 + When unseated hamza is followed by an [Ealif]{.trn}: [ءا]{.ar},  the combination of hamza and [Ealif]{.trn} is usually written as [آ]{.ar} as a convention. Examples: [آمَنَ]{.ar} [EAmana]{.trn}, [ظَمْآن]{.ar} [PamEAn]{.trn}, [شَنَآن]{.ar} [canaEAn]{.trn}. However, when the [Ealif]{.trn} is a suffix or part of a suffix, or the hamza is doubled, or there is an [Ealif]{.trn} before the hamza then we will write [ءا]{.ar}, not [آ]{.ar}. Examples: [شَيْءَانِ]{.ar} [cayEAni]{.trn}, [سَءَّال]{.ar} [saEEAl]{.trn}, [قِرَاءَات]{.ar} [qirAEAt]{.trn}. 
 
