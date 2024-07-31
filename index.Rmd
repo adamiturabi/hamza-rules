@@ -220,6 +220,11 @@ Examples:
 | [مَجِيءِهِ]{.ar} [majIEihi]{.trn}      | [I]{.trn}  | [i]{.trn} | [I]{.trn}   | [ء]{.ar} |
 | [سُوئِهِ]{.ar} [sUEihi]{.trn}         | [U]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.ar} |
 | [ضَوْئِهِ]{.ar} [DawEihi]{.trn}        | [aw]{.trn} | [i]{.trn} | [i]{.trn}   | [ئ]{.ar} |
+| [سُوءُهُ]{.ar} [sUEuhu]{.trn}         | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.ar} |
+| [سُوءَهُ]{.ar} [sUEahu]{.trn}         | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.ar} |
+| [سُوءَانِ]{.ar} [sUEAni]{.trn}        | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.ar} |
+| [ضَوْءَهُ]{.ar} [DawEahu]{.trn}        | [aw]{.trn} | [a]{.trn} | [aw]{.trn}  | [ء]{.ar} |
+| [ضَوْءَانِ]{.ar} [DawEAni]{.trn}       | [aw]{.trn} | [a]{.trn} | [aw]{.trn}  | [ء]{.ar} |
 | [مُتَّكِئِينَ]{.ar} [muttakiEIna]{.trn}  | [i]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.ar} |
 | [يُبَرِّئُونَ]{.ar} [yubarriEUna]{.trn}  | [i]{.trn}  | [u]{.trn} | [i]{.trn}   | [ئ]{.ar} |
 | [يُبَرَّؤُونَ]{.ar} [yubarraEUna]{.trn}  | [a]{.trn}  | [u]{.trn} | [u]{.trn}   | [ؤ]{.ar} |
@@ -238,13 +243,9 @@ then the hamza will be written unseated. Examples:
 
 + If the hamzah is after a long-[U]{.trn} vowel or an [aw]{.trn} semi-vowel, and the hamzah does not have an [i]{.trn}-mark, then it is written unseated. Examples:
 
-  + [سُوءَهُ]{.ar} [sUEahu]{.trn}
-  + [سُوءَانِ]{.ar} [sUEAni]{.trn}
-  + [ضَوْءَهُ]{.ar} [DawEahu]{.trn}
-  + [ضَوْءَانِ]{.ar} [DawEAni]{.trn}
-  + [سُوءُهُ]{.ar} [sUEuhu]{.trn}
   + [يَسُوءُونَ]{.ar} [yasUEUna]{.trn}
 
+  This is actually an acceptable variant in the general case, as will discuss below in section\ \@ref(hamza-variants)
 
 ([انِ]{.ar}, [يْنِ]{.ar}, [هُ]{.ar}, and [هِ]{.ar} are suffixes.)
 Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [Ealif]{.trn2} is part of the suffix.
@@ -264,7 +265,7 @@ Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [Eali
 + [سَيِّئ]{.ar} becomes [سَيِّئٌ, سَيِّئًا, سَيِّئٍ]{.ar}
 + [تَبَوُّء]{.ar} becomes [تَبَوُّءٌ, تَبَوُّءًا, تَبَوُّءٍ]{.ar}
 
-## Variants
+## Variants {#hamza-variants}
 
 There are some historical and regional variants to the above rules. The main one is when the letter before hamza has a [sukUn]{.trn}, the hamza is generally written unseated. So with this variant, we write:
 
