@@ -119,203 +119,46 @@ Precedence | Vowel | Seat
 6. | [a]{.trn}            | [أ]{.ar}
 7. | [◌ْ]{.ar}             | [ء]{.ar}
 
-**Main rule:** Consider the vowel on the consonant before the hamza and the _shortened_ vowel on the hamza itself. Determine which of the two vowels is higher in precedence in the above table. The prevailing vowel's seat will be the seat of the hamza.
+**Main rule:** Disregard any doubling mark [◌ّ]{.ar} and consider the vowel on the consonant before the hamza and the _shortened_ vowel on the hamza itself. Determine which of the two vowels wins by being higher in precedence in the above table. The winning vowel's seat will be the seat of the hamza.
 
 **Sub-rule:** If the main rule determines that hamza is to be seated on [Ealif]{.trn}, and there is a long [A]{.trn} vowel on the hamza using an [Ealif]{.trn}, then hamza shall be unseated. And the combination of [ءَا]{.ar} will usually be written as [آ]{.ar}.
 
 Examples:
 
-+ [هَيْءَة]{.ar} [hayEao]{.trn}  
-  Vowel on consonant before hamza: [ay]{.trn}  
-  Shortened vowel on hamza: [a]{.trn}  
-  Precedence: [ay]{.trn}  
-  Seated:[ء]{.ar} 
-
-+ [خَطِيءَة]{.ar} [xaTIEao]{.trn}  
-  Vowel on consonant before hamza: [I]{.trn}  
-  Shortened vowel on hamza: [a]{.trn}  
-  Precedence: [I]{.trn}  
-  Seated:[ء]{.ar} 
-
-+ [اسْتِيءَاس]{.ar} [EistIEAs]{.trn}
-  Vowel on consonant before hamza: [I]{.trn}  
-  Shortened vowel on hamza: [a]{.trn}  
-  Precedence: [I]{.trn}  
-  Seated:[ء]{.ar} (Exception: [ءَا]{.ar} is not written as [آ]{.ar} when the preceding vowel is [I]{.trn}.)
-
-+ [تَوْءَم]{.ar} [tawEam]{.trn}
-  Vowel on consonant before hamza: [aw]{.trn}  
-  Shortened vowel on hamza: [a]{.trn}  
-  Precedence: [aw]{.trn}  
-  Seated:[ء]{.ar} 
-
-+ [سَائِل]{.ar} [sAEil]{.trn}
-  Vowel on consonant before hamza: [A]{.trn}  
-  Shortened vowel on hamza: [i]{.trn}  
-  Precedence: [i]{.trn}  
-  Seated: [ئ]{.ar}
-
-+ [تَسَاؤُل]{.ar} [tasAEul]{.trn}
-  Vowel on consonant before hamza: [A]{.trn}  
-  Shortened vowel on hamza: [u]{.trn}  
-  Precedence: [u]{.trn}  
-  Seated:[ؤ]{.ar} 
-
-+ [تَسَاءَلَ]{.ar} [tasAEala]{.trn}
-  Vowel on consonant before hamza: [A]{.trn}  
-  Shortened vowel on hamza: [a]{.trn}  
-  Precedence: [A]{.trn}  
-  Seated:[ء]{.ar} 
-
-+ [قِرَاءَات]{.ar} [qirAEAt]{.trn}
-  Vowel on consonant before hamza: [A]{.trn}  
-  Shortened vowel on hamza: [a]{.trn}  
-  Precedence: [A]{.trn}  
-  Seated:[ء]{.ar} 
-
-+ [مَسْؤُول]{.ar} [masEUl]{.trn}
-  Vowel on consonant before hamza: [◌ْ]{.ar}  
-  Shortened vowel on hamza: [u]{.trn}  
-  Precedence: [u]{.trn}  
-  Seated:[ؤ]{.ar} 
-
-+ [تَرْئِيس]{.ar} [tarEIs]{.trn}
-  Vowel on consonant before hamza: [◌ْ]{.ar}  
-  Shortened vowel on hamza: [i]{.trn}  
-  Precedence: [i]{.trn}  
-  Seated:[ئ]{.ar} 
-
-+ [مِرْآة]{.ar} [mirEAo]{.trn}  
-  Vowel on consonant before hamza: [◌ْ]{.ar}  
-  Shortened vowel on hamza: [a]{.trn}  
-  Precedence: [a]{.trn}  
-  Seated:[ء]{.ar} (Using sub-rule.)
-
-+ [ظَمْآن]{.ar} [PamEAn]{.trn}  
-  Vowel on consonant before hamza: [◌ْ]{.ar}  
-  Shortened vowel on hamza: [a]{.trn}  
-  Precedence: [a]{.trn}  
-  Seated:[ء]{.ar} (Using sub-rule.)
-
-+ [مَسْأَلَة]{.ar} [masEalao]{.trn}  
-  Vowel on consonant before hamza: [◌ْ]{.ar}  
-  Shortened vowel on hamza: [a]{.trn}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [الْمَرْأَة]{.ar} [almarEao]{.trn}  
-  Vowel on consonant before hamza: [◌ْ]{.ar}  
-  Shortened vowel on hamza: [a]{.trn}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [بِئْسَ]{.ar} [biEsa]{.trn}  
-  Vowel on consonant before hamza: [i]{.trn}  
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [i]{.trn}  
-  Seated:[ئ]{.ar}
-
-+ [سُؤْلَكَ]{.ar} [suElaka]{.trn}  
-  Vowel on consonant before hamza: [u]{.trn}  
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [u]{.trn}  
-  Seated:[ؤ]{.ar}
-
-+ [كَأْس]{.ar} [kaEs]{.trn}  
-  Vowel on consonant before hamza: [a]{.trn}  
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [سُئِلَ]{.ar} [suEila]{.trn}  
-  Vowel on consonant before hamza: [u]{.trn}  
-  Shortened vowel on hamza: [i]{.trn}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [يَئِسَ]{.ar} [yaEisa]{.trn}  
-  Vowel on consonant before hamza: [a]{.trn}  
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [رَئِيس]{.ar} [raEIs]{.trn}  
-  Vowel on consonant before hamza: [a]{.trn}  
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [سُؤَال]{.ar} [suEAl]{.trn}  
-  Vowel on consonant before hamza: [a]{.trn}  
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [رُؤُوس]{.ar} [ruEUs]{.trn}  
-  Vowel on consonant before hamza: [a]{.trn}  
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [لُؤَيّ]{.ar} [luEayy]{.trn}  
-  Vowel on consonant before hamza: [a]{.trn}  
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [شَنَآن]{.ar} [canaEAn]{.trn}  
-  Vowel on consonant before hamza: [a]{.trn}  
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [سَأَلَ]{.ar} [saEala]{.trn}  
-  Vowel on consonant before hamza: [a]{.trn}  
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [رَأَىٰ]{.ar} [raEA]{.trn}  
-  Vowel on consonant before hamza: [a]{.trn}  
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [رَأَّسَ]{.ar} [raEEasa]{.trn}
-  Vowel on consonant before hamza: [a]{.trn}
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [يُرَئِّسُ]{.ar} [yuraEEisu]{.trn}
-  Vowel on consonant before hamza: [a]{.trn}
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [رُئِّسَ]{.ar} [ruEEisa]{.trn}
-  Vowel on consonant before hamza: [a]{.trn}
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [تَفَؤُّل]{.ar} [tafaEEul]{.trn}
-  Vowel on consonant before hamza: [a]{.trn}
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [سَءَّال]{.ar} [saEEAl]{.trn}
-  Vowel on consonant before hamza: [a]{.trn}
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
-
-+ [لَءَّال]{.ar} [laEEAl]{.trn}.
-  Vowel on consonant before hamza: [a]{.trn}
-  Shortened vowel on hamza: [◌ْ]{.ar}  
-  Precedence: [a]{.trn}  
-  Seated:[أ]{.ar}
+|Word | Vowel on consonant before hamza | Shortened vowel on hamza | Winning vowel | Seated hamza |
+|:-----|:-|:-|:-|:------|
+|[هَيْءَة]{.ar} [hayEao]{.trn}  | [ay]{.trn}  | [a]{.trn}  | [ay]{.trn}  | [ء]{.ar} |
+| [خَطِيءَة]{.ar} [xaTIEao]{.trn}  | [I]{.trn}  | [a]{.trn}  | [I]{.trn}  | [ء]{.ar} |
+| [اسْتِيءَاس]{.ar} [EistIEAs]{.trn}| [I]{.trn}  | [a]{.trn}  | [I]{.trn}  | [ء]{.ar} (Exception: [ءَا]{.ar} is not written as [آ]{.ar} when the preceding vowel is [I]{.trn}.)|
+| [تَوْءَم]{.ar} [tawEam]{.trn}| [aw]{.trn}  | [a]{.trn}  | [aw]{.trn}  | [ء]{.ar} |
+| [سَائِل]{.ar} [sAEil]{.trn}| [A]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.ar}|
+| [تَسَاؤُل]{.ar} [tasAEul]{.trn}| [A]{.trn}  | [u]{.trn}  | [u]{.trn}  | [ؤ]{.ar} |
+| [تَسَاءَلَ]{.ar} [tasAEala]{.trn}| [A]{.trn}  | [a]{.trn}  | [A]{.trn}  | [ء]{.ar} |
+| [قِرَاءَات]{.ar} [qirAEAt]{.trn}| [A]{.trn}  | [a]{.trn}  | [A]{.trn}  | [ء]{.ar} |
+| [مَسْؤُول]{.ar} [masEUl]{.trn}| [◌ْ]{.ar}  | [u]{.trn}  | [u]{.trn}  | [ؤ]{.ar} |
+| [تَرْئِيس]{.ar} [tarEIs]{.trn}| [◌ْ]{.ar}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.ar} |
+| [مِرْآة]{.ar} [mirEAo]{.trn}  | [◌ْ]{.ar}  | [a]{.trn}  | [a]{.trn}  | [ء]{.ar} (Using sub-rule.)|
+| [ظَمْآن]{.ar} [PamEAn]{.trn}  | [◌ْ]{.ar}  | [a]{.trn}  | [a]{.trn}  | [ء]{.ar} (Using sub-rule.)|
+| [مَسْأَلَة]{.ar} [masEalao]{.trn}  | [◌ْ]{.ar}  | [a]{.trn}  | [a]{.trn}  | [أ]{.ar}|
+| [الْمَرْأَة]{.ar} [almarEao]{.trn}  | [◌ْ]{.ar}  | [a]{.trn}  | [a]{.trn}  | [أ]{.ar}|
+| [بِئْسَ]{.ar} [biEsa]{.trn}  | [i]{.trn}  | [◌ْ]{.ar}  | [i]{.trn}  | [ئ]{.ar}|
+| [سُؤْلَكَ]{.ar} [suElaka]{.trn}  | [u]{.trn}  | [◌ْ]{.ar}  | [u]{.trn}  | [ؤ]{.ar}|
+| [كَأْس]{.ar} [kaEs]{.trn}  | [a]{.trn}  | [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
+| [سُئِلَ]{.ar} [suEila]{.trn}  | [u]{.trn}  | [i]{.trn}  | [a]{.trn}  | [أ]{.ar}|
+| [يَئِسَ]{.ar} [yaEisa]{.trn}  | [a]{.trn}  | [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
+| [رَئِيس]{.ar} [raEIs]{.trn}  | [a]{.trn}  | [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
+| [سُؤَال]{.ar} [suEAl]{.trn}  | [a]{.trn}  | [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
+| [رُؤُوس]{.ar} [ruEUs]{.trn}  | [a]{.trn}  | [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
+| [لُؤَيّ]{.ar} [luEayy]{.trn}  | [a]{.trn}  | [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
+| [شَنَآن]{.ar} [canaEAn]{.trn}  | [a]{.trn}  | [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
+| [سَأَلَ]{.ar} [saEala]{.trn}  | [a]{.trn}  | [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
+| [رَأَىٰ]{.ar} [raEA]{.trn}  | [a]{.trn}  | [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
+| [رَأَّسَ]{.ar} [raEEasa]{.trn}| [a]{.trn}| [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
+| [يُرَئِّسُ]{.ar} [yuraEEisu]{.trn}| [a]{.trn}| [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
+| [رُئِّسَ]{.ar} [ruEEisa]{.trn}| [a]{.trn}| [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
+| [تَفَؤُّل]{.ar} [tafaEEul]{.trn}| [a]{.trn}| [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
+| [سَءَّال]{.ar} [saEEAl]{.trn}| [a]{.trn}| [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
+| [لَءَّال]{.ar} [laEEAl]{.trn}| [a]{.trn}| [◌ْ]{.ar}  | [a]{.trn}  | [أ]{.ar}|
 
 
 This is the basic underlying principle although there are a few exceptions. We now give a comprehensive set of rules and many examples that should exemplify this principle and the exceptions.
