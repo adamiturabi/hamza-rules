@@ -136,6 +136,7 @@ Examples:
 | [تَسَاؤُل]{.ar} [tasAEul]{.trn}   | [A]{.trn}  | [u]{.trn}  | [u]{.trn}  | [ؤ]{.ar} |
 | [تَسَاءَلَ]{.ar} [tasAEala]{.trn}  | [A]{.trn}  | [a]{.trn}  | [A]{.trn}  | [ء]{.ar} |
 | [قِرَاءَات]{.ar} [qirAEAt]{.trn}  | [A]{.trn}  | [a]{.trn}  | [A]{.trn}  | [ء]{.ar} |
+| [نُوآنٌ]{.ar} [nUEAnun]{.trn}    | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.ar} |
 | [مَسْؤُول]{.ar} [masEUl]{.trn}    | [◌ْ]{.ar}   | [u]{.trn}  | [u]{.trn}  | [ؤ]{.ar} |
 | [تَرْئِيس]{.ar} [tarEIs]{.trn}    | [◌ْ]{.ar}   | [i]{.trn}  | [i]{.trn}  | [ئ]{.ar} |
 | [مِرْآة]{.ar} [mirEAo]{.trn}     | [◌ْ]{.ar}   | [a]{.trn}  | [a]{.trn}  | [ء]{.ar} (Using sub-rule.)|
@@ -153,7 +154,7 @@ Examples:
 | [لُؤَيّ]{.ar} [luEayy]{.trn}      | [u]{.trn}  | [a]{.trn}  | [u]{.trn}  | [ؤ]{.ar} |
 | [شَنَآن]{.ar} [canaEAn]{.trn}    | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [ء]{.ar} (Using sub-rule.)|
 | [سَأَلَ]{.ar} [saEala]{.trn}      | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.ar} |
-| [رَأَىٰ]{.ar} [raEA]{.trn}        | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.ar} |
+| [رَأَىٰ]{.ar} [raEA]{.trn}        | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.ar} (Sub-rule doesn't apply because [A]{.trn} vowel at end represented by [ىٰ]{.ar}, not [Ealif]{.trn2}.)|
 | [رَأَّسَ]{.ar} [raEEasa]{.trn}     | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.ar} |
 | [يُرَئِّسُ]{.ar} [yuraEEisu]{.trn}  | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.ar} |
 | [رُئِّسَ]{.ar} [ruEEisa]{.trn}     | [u]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.ar} |
@@ -205,42 +206,45 @@ Examples:
 
 | Word | Vowel on consonant before hamza | Shortened vowel on hamza | Winning vowel | Seated hamza |
 |:-----|:-|:-|:-|:------|
-| [بَرِيءُونَ]{.ar} [barIEUna]{.trn}     | [I]{.trn}  | [u]{.trn} | [I]{.trn}   | [ء]{.trn} |
-| [بَرِيءَانِ]{.ar} [barIEAni]{.trn}     | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.trn} |
-| [بَرِيءِينَ]{.ar} [barIEIna]{.trn}     | [I]{.trn}  | [i]{.trn} | [I]{.trn}   | [ء]{.trn} |
-| [بَرِيءَيْنِ]{.ar} [barIEayni]{.trn}    | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.trn} |
-| [شَيْءُهُ]{.ar} [cayEuhu]{.trn}        | [ay]{.trn} | [u]{.trn} | [ay]{.trn}  | [ء]{.trn} |
-| [شَيْءَهُ]{.ar} [cayEahu]{.trn}        | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.trn} |
-| [شَيْءِهِ]{.ar} [cayEihi]{.trn}        | [ay]{.trn} | [i]{.trn} | [ay]{.trn}  | [ء]{.trn} |
-| [شَيْءَانِ]{.ar} [cayEAni]{.trn}       | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.trn} |
-| [شَيْءَيْنِ]{.ar} [cayEayni]{.trn}      | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.trn} |
-| [مَجِيءُهُ]{.ar} [majIEuhu]{.trn}      | [I]{.trn}  | [u]{.trn} | [I]{.trn}   | [ء]{.trn} |
-| [مَجِيءَهُ]{.ar} [majIEahu]{.trn}      | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.trn} |
-| [مَجِيءِهِ]{.ar} [majIEihi]{.trn}      | [I]{.trn}  | [i]{.trn} | [I]{.trn}   | [ء]{.trn} |
-| [سُوئِهِ]{.ar} [sUEihi]{.trn}         | [U]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.trn} |
-| [ضَوْئِهِ]{.ar} [DawEihi]{.trn}        | [aw]{.trn} | [i]{.trn} | [i]{.trn}   | [ئ]{.trn} |
-| [سُوءَهُ]{.ar} [sUEahu]{.trn}         | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.trn} |
-| [سُوءَانِ]{.ar} [sUEAni]{.trn}        | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.trn} |
-| [ضَوْءَهُ]{.ar} [DawEahu]{.trn}        | [aw]{.trn} | [a]{.trn} | [aw]{.trn}  | [ء]{.trn} |
-| [ضَوْءَانِ]{.ar} [DawEAni]{.trn}       | [aw]{.trn} | [a]{.trn} | [aw]{.trn}  | [ء]{.trn} |
-| [سُوءُهُ]{.ar} [sUEuhu]{.trn}         | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.trn} |
-| [يَسُوءُونَ]{.ar} [yasUEUna]{.trn}     | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.trn} |
-| [نُوآنٌ]{.ar} [nUEAnun]{.trn}.       | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.trn} |
-| [مُتَّكِئِينَ]{.ar} [muttakiEIna]{.trn}  | [i]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.trn} |
-| [يُبَرِّئُونَ]{.ar} [yubarriEUna]{.trn}  | [i]{.trn}  | [u]{.trn} | [i]{.trn}   | [ئ]{.trn} |
-| [يُبَرَّؤُونَ]{.ar} [yubarraEUna]{.trn}  | [a]{.trn}  | [u]{.trn} | [u]{.trn}   | [ؤ]{.trn} |
+| [بَرِيءُونَ]{.ar} [barIEUna]{.trn}     | [I]{.trn}  | [u]{.trn} | [I]{.trn}   | [ء]{.ar} |
+| [بَرِيءَانِ]{.ar} [barIEAni]{.trn}     | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.ar} |
+| [بَرِيءِينَ]{.ar} [barIEIna]{.trn}     | [I]{.trn}  | [i]{.trn} | [I]{.trn}   | [ء]{.ar} |
+| [بَرِيءَيْنِ]{.ar} [barIEayni]{.trn}    | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.ar} |
+| [شَيْءُهُ]{.ar} [cayEuhu]{.trn}        | [ay]{.trn} | [u]{.trn} | [ay]{.trn}  | [ء]{.ar} |
+| [شَيْءَهُ]{.ar} [cayEahu]{.trn}        | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.ar} |
+| [شَيْءِهِ]{.ar} [cayEihi]{.trn}        | [ay]{.trn} | [i]{.trn} | [ay]{.trn}  | [ء]{.ar} |
+| [شَيْءَانِ]{.ar} [cayEAni]{.trn}       | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.ar} |
+| [شَيْءَيْنِ]{.ar} [cayEayni]{.trn}      | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.ar} |
+| [مَجِيءُهُ]{.ar} [majIEuhu]{.trn}      | [I]{.trn}  | [u]{.trn} | [I]{.trn}   | [ء]{.ar} |
+| [مَجِيءَهُ]{.ar} [majIEahu]{.trn}      | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.ar} |
+| [مَجِيءِهِ]{.ar} [majIEihi]{.trn}      | [I]{.trn}  | [i]{.trn} | [I]{.trn}   | [ء]{.ar} |
+| [سُوئِهِ]{.ar} [sUEihi]{.trn}         | [U]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.ar} |
+| [ضَوْئِهِ]{.ar} [DawEihi]{.trn}        | [aw]{.trn} | [i]{.trn} | [i]{.trn}   | [ئ]{.ar} |
+| [مُتَّكِئِينَ]{.ar} [muttakiEIna]{.trn}  | [i]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.ar} |
+| [يُبَرِّئُونَ]{.ar} [yubarriEUna]{.trn}  | [i]{.trn}  | [u]{.trn} | [i]{.trn}   | [ئ]{.ar} |
+| [يُبَرَّؤُونَ]{.ar} [yubarraEUna]{.trn}  | [a]{.trn}  | [u]{.trn} | [u]{.trn}   | [ؤ]{.ar} |
 
 There are some exceptions:
 
-If the letter before the hamza has a [sukUn]{.trn} and is not [wAw]{.trn} or [yAE]{.trn},
++ If the letter before the hamza has a [sukUn]{.trn} and is not [wAw]{.trn} or [yAE]{.trn},
 then the hamza will be written unseated. Examples:
 
-+  [جُزْءَانِ]{.ar} [juzEAni]{.trn}  
-+  [عِبْءَانِ]{.ar} [eibEAni]{.trn}  
-+  [عِبْءَيْنِ]{.ar} [eibEayni]{.trn}  
-+  [بُطْءَهُ]{.ar} [buTEahu]{.trn}  
-+  [بُطْءُهُ]{.ar} [buTEuhu]{.trn}  
-+  [بُطْءِهِ]{.ar} [buTEihi]{.trn}
+  +  [جُزْءَانِ]{.ar} [juzEAni]{.trn}  
+  +  [عِبْءَانِ]{.ar} [eibEAni]{.trn}  
+  +  [عِبْءَيْنِ]{.ar} [eibEayni]{.trn}  
+  +  [بُطْءَهُ]{.ar} [buTEahu]{.trn}  
+  +  [بُطْءُهُ]{.ar} [buTEuhu]{.trn}  
+  +  [بُطْءِهِ]{.ar} [buTEihi]{.trn}
+
++ If the hamzah is after a long-[U]{.trn} vowel or an [aw]{.trn} semi-vowel, and the hamzah does not have an [i]{.trn}-mark, then it is written unseated. Examples:
+
+  + [سُوءَهُ]{.ar} [sUEahu]{.trn}
+  + [سُوءَانِ]{.ar} [sUEAni]{.trn}
+  + [ضَوْءَهُ]{.ar} [DawEahu]{.trn}
+  + [ضَوْءَانِ]{.ar} [DawEAni]{.trn}
+  + [سُوءُهُ]{.ar} [sUEuhu]{.trn}
+  + [يَسُوءُونَ]{.ar} [yasUEUna]{.trn}
+
 
 ([انِ]{.ar}, [يْنِ]{.ar}, [هُ]{.ar}, and [هِ]{.ar} are suffixes.)
 Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [Ealif]{.trn2} is part of the suffix.
@@ -257,8 +261,8 @@ Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [Eali
 + [مَلْجَأ]{.ar} becomes [مَلْجَأٌ، مَلْجَءًا، مَلْجَإٍ]{.ar}
 + [جُزْء]{.ar} becomes [جُزْءٌ، جُزْءًا، جُزْءٍ]{.ar}
 + [شَيْء]{.ar} becomes [شَيْءٌ، شَيْءًا، شَيْءٍ]{.ar}
-+ [سَيِّئ]{.tradar} becomes [سَيِّئٌ, سَيِّئًا, سَيِّئٍ]{.tradar}
-+ [تَبَوُّء]{.tradar} becomes [تَبَوُّءٌ, تَبَوُّءًا, تَبَوُّءٍ]{.tradar}
++ [سَيِّئ]{.ar} becomes [سَيِّئٌ, سَيِّئًا, سَيِّئٍ]{.ar}
++ [تَبَوُّء]{.ar} becomes [تَبَوُّءٌ, تَبَوُّءًا, تَبَوُّءٍ]{.ar}
 
 ## Variants
 
@@ -268,7 +272,7 @@ There are some historical and regional variants to the above rules. The main one
 + [أَسْءِلَة]{.ar} instead of [أَسْئِلَة]{.ar}
 + [مَسْءَلَة]{.ar} instead of [مَسْأَلَة]{.ar}
 
-However, this rule appears to be not consistently followed. For example, [nacEah]{.trn} is generally always written [نَشْأَة]{.tradar} never [نَشْءَة]{.tradar}.
+However, this rule appears to be not consistently followed. For example, [nacEah]{.trn} is generally always written [نَشْأَة]{.ar} never [نَشْءَة]{.ar}.
 
 A second variant is to avoid the repetition of vowel letters like [و]{.ar} and [ي]{.ar}. So they write:
 
