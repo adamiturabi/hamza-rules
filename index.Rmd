@@ -1,6 +1,7 @@
 ---
 title: "Rules for how to write hamza in the Arabic script"
 author: "https://github.com/adamiturabi/hamza-rules"
+mainfont: "Charis SIL"
 output:
   bookdown::gitbook:
     css: mystyle.css
@@ -52,9 +53,7 @@ This article is based on findings from the author's research. Any errors reporte
 
 We treat only the orthography of Standard Arabic. The orthography of the Qurʾān ([الرسم العثماني]{.ar}) is not discussed.
 
-# Hamza orthography
-
-## Different ways hamza is written
+# Seats of hamza
 
 hamza is written in four different ways:
 
@@ -81,94 +80,168 @@ Here are some of notes about writing hamza in the above four methods:
 
 So how do we know when to write hamza unseated and when seated? And how do we choose between its three different seats? There are a set of rules that we need to follow in order to correctly write hamza. Before we give the rules we will first present the underlying principle behind the rules.
 
-## Underlying principle of determining the seat of hamza
+# Rules for determining the seat of hamza
+
+## Separate main word from prefixes and suffixes
+
+In order to determine the seat of hamza for a words, we must first separate the main word from any prefixes and suffixes.
+We will determine the seat of hamza for the main word first.
+Hamza can occur in three positions in the main word:
+
+1. At the beginning of the word
+1. In the middle of the word
+1. At the end of the word
+
+We will treat each of these positions below.
+
+###  At the beginning of the word
+
+When hamza occurs in the beginning of a word, then:
+
+a. If the hamza carries a long-[A]{.trn} vowel, it is written unseated followed by an [Ealif]{.trn} and written as [آ]{.ar}, for example [آمَنَ]{.ar} [EAmana]{.trn}.
+b. If the hamza carries any other vowel, it is written seated on an [Ealif]{.trn}, and is marked with the appropriated vowel mark, for example [أَسْلَمَ]{.ar} [Easlama]{.trn}, [أُرِيدُ]{.ar} [EurIdu]{.trn}, [إِسْلَام]{.ar} [EislAm]{.trn}, [إِيمَان]{.ar} [EImAn]{.trn}, [أُوخِذَ]{.ar} [EUxipa]{.trn}. 
+
+### In the middle of the word
 
 The most general case is when hamza is in the middle of a word. 
 
-Arabic has three short vowels, three long vowels, two diphthongs, and a [sukUn]{.trn}. Each of these has an order of precedence and a default hamza seat.
+Arabic has three short vowels, three long vowels, two diphthongs, and a [sukUn]{.trn}. Each of these has an order of precedence and a hamza seat.
 
-Precedence | Vowel | Default seat | Orthography
+Precedence | Vowel | Seat 
 :--|:------|:--------|:------
-1. | [I]{.trn}/[ay]{.trn} | unseated      | [ء]{.ar}
-2. | [i]{.trn}            | [yAE]{.trn}   | [ئ]{.ar}
-3. | [U]{.trn}/[aw]{.trn} | unseated      | [ء]{.ar}
-4. | [u]{.trn}            | [wAw]{.trn}   | [ؤ]{.ar}
-5. | [A]{.trn}            | unseated      | [ء]{.ar}
-6. | [a]{.trn}            | [Ealif]{.trn} | [أ]{.ar}
-7. | [sukUn]{.trn}        | unseated      | [ء]{.ar}
+1. | [I]{.trn}/[ay]{.trn} | [ء]{.ar}
+2. | [i]{.trn}            | [ئ]{.ar}
+3. | [U]{.trn}/[aw]{.trn} | [ء]{.ar}
+4. | [u]{.trn}            | [ؤ]{.ar}
+5. | [A]{.trn}            | [ء]{.ar}
+6. | [a]{.trn}            | [أ]{.ar}
+7. | [◌ْ]{.ar}             | [ء]{.ar}
 
-Consider the vowel on the consonant before the hamza and the _shortened_ vowel on the hamza itself. Determine which of the two vowels is higher in precedence in the above table. The prevailing vowel's default seat will be the seat of the hamza.
+**Main rule:** Disregard any doubling mark [◌ّ]{.ar} and consider the vowel on the consonant before the hamza and the _shortened_ vowel on the hamza itself. Determine which of the two vowels wins by being higher in precedence in the above table. The winning vowel's seat will be the seat of the hamza.
 
-This is the basic underlying principle although there are a few exceptions. We now give a comprehensive set of rules and many examples that should exemplify this principle and the exceptions.
+**Sub-rule:** If the main rule determines that hamza is to be seated on [Ealif]{.trn}, and there is a long [A]{.trn} vowel on the hamza using an [Ealif]{.trn}, then hamza shall be unseated. And the combination of [ءَا]{.ar} will usually be written as [آ]{.ar}.
 
-## Ordered set of rules
+Examples:
 
-1. If hamza occurs in the beginning of a word:
-   a. If the hamza carries a long-[A]{.trn} vowel, it is written unseated followed by an [Ealif]{.trn} and written as [آ]{.ar}, for example [آمَنَ]{.ar} [EAmana]{.trn}.
-   b. If the hamza carries any other vowel, it is written seated on an [Ealif]{.trn}, and is marked with the appropriated vowel mark, for example [أَسْلَمَ]{.ar} [Easlama]{.trn}, [أُرِيدُ]{.ar} [EurIdu]{.trn}, [إِسْلَام]{.ar} [EislAm]{.trn}, [إِيمَان]{.ar} [EImAn]{.trn}, [أُوخِذَ]{.ar} [EUxipa]{.trn}. 
+| Word | Vowel on consonant before hamza | Shortened vowel on hamza | Winning vowel | Seated hamza |
+|:-----|:-|:-|:-|:------|
+| [هَيْءَة]{.ar} [hayEao]{.trn}     | [ay]{.trn} | [a]{.trn}  | [ay]{.trn} | [ء]{.ar} |
+| [خَطِيءَة]{.ar} [xaTIEao]{.trn}   | [I]{.trn}  | [a]{.trn}  | [I]{.trn}  | [ء]{.ar} |
+| [اسْتِيءَاس]{.ar} [EistIEAs]{.trn}| [I]{.trn}  | [a]{.trn}  | [I]{.trn}  | [ء]{.ar} (Exception: [ءَا]{.ar} is not written as [آ]{.ar} when the preceding vowel is [I]{.trn}.)|
+| [تَوْءَم]{.ar} [tawEam]{.trn}     | [aw]{.trn} | [a]{.trn}  | [aw]{.trn} | [ء]{.ar} |
+| [سَائِل]{.ar} [sAEil]{.trn}      | [A]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.ar} |
+| [تَسَاؤُل]{.ar} [tasAEul]{.trn}   | [A]{.trn}  | [u]{.trn}  | [u]{.trn}  | [ؤ]{.ar} |
+| [تَسَاءَلَ]{.ar} [tasAEala]{.trn}  | [A]{.trn}  | [a]{.trn}  | [A]{.trn}  | [ء]{.ar} |
+| [قِرَاءَات]{.ar} [qirAEAt]{.trn}  | [A]{.trn}  | [a]{.trn}  | [A]{.trn}  | [ء]{.ar} |
+| [مَسْؤُول]{.ar} [masEUl]{.trn}    | [◌ْ]{.ar}   | [u]{.trn}  | [u]{.trn}  | [ؤ]{.ar} |
+| [تَرْئِيس]{.ar} [tarEIs]{.trn}    | [◌ْ]{.ar}   | [i]{.trn}  | [i]{.trn}  | [ئ]{.ar} |
+| [مِرْآة]{.ar} [mirEAo]{.trn}     | [◌ْ]{.ar}   | [a]{.trn}  | [a]{.trn}  | [ء]{.ar} (Using sub-rule.)|
+| [ظَمْآن]{.ar} [PamEAn]{.trn}     | [◌ْ]{.ar}   | [a]{.trn}  | [a]{.trn}  | [ء]{.ar} (Using sub-rule.)|
+| [مَسْأَلَة]{.ar} [masEalao]{.trn}  | [◌ْ]{.ar}   | [a]{.trn}  | [a]{.trn}  | [أ]{.ar} |
+| [الْمَرْأَة]{.ar} [almarEao]{.trn} | [◌ْ]{.ar}   | [a]{.trn}  | [a]{.trn}  | [أ]{.ar} |
+| [بِئْسَ]{.ar} [biEsa]{.trn}       | [i]{.trn}  | [◌ْ]{.ar}   | [i]{.trn}  | [ئ]{.ar} |
+| [سُؤْلَكَ]{.ar} [suElaka]{.trn}    | [u]{.trn}  | [◌ْ]{.ar}   | [u]{.trn}  | [ؤ]{.ar} |
+| [كَأْس]{.ar} [kaEs]{.trn}        | [a]{.trn}  | [◌ْ]{.ar}   | [a]{.trn}  | [أ]{.ar} |
+| [سُئِلَ]{.ar} [suEila]{.trn}      | [u]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.ar} |
+| [يَئِسَ]{.ar} [yaEisa]{.trn}      | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.ar} |
+| [رَئِيس]{.ar} [raEIs]{.trn}      | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.ar} |
+| [سُؤَال]{.ar} [suEAl]{.trn}      | [u]{.trn}  | [a]{.trn}  | [u]{.trn}  | [ؤ]{.ar} |
+| [رُؤُوس]{.ar} [ruEUs]{.trn}      | [u]{.trn}  | [u]{.trn}  | [u]{.trn}  | [ؤ]{.ar} |
+| [لُؤَيّ]{.ar} [luEayy]{.trn}      | [u]{.trn}  | [a]{.trn}  | [u]{.trn}  | [ؤ]{.ar} |
+| [شَنَآن]{.ar} [canaEAn]{.trn}    | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [ء]{.ar} (Using sub-rule.)|
+| [سَأَلَ]{.ar} [saEala]{.trn}      | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.ar} |
+| [رَأَىٰ]{.ar} [raEA]{.trn}        | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.ar} |
+| [رَأَّسَ]{.ar} [raEEasa]{.trn}     | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [أ]{.ar} |
+| [يُرَئِّسُ]{.ar} [yuraEEisu]{.trn}  | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.ar} |
+| [رُئِّسَ]{.ar} [ruEEisa]{.trn}     | [u]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.ar} |
+| [تَفَؤُّل]{.ar} [tafaEEul]{.trn}   | [a]{.trn}  | [u]{.trn}  | [u]{.trn}  | [ؤ]{.ar} |
+| [سَءَّال]{.ar} [saEEAl]{.trn}     | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [ء]{.ar} (Using sub-rule.)|
+| [لَءَّال]{.ar} [laEEAl]{.trn}     | [a]{.trn}  | [a]{.trn}  | [a]{.trn}  | [ء]{.ar} (Using sub-rule.)|
 
-2. If hamza occurs in the middle of a word:
-   a. If there is a long vowel or diphthong before the hamza:
-        i. If the hamza is after a long-[I]{.trn} vowel or [ay]{.trn} diphthong, then the hamza will be written unseated. (Note: if the hamza has a [fatHao]{.trn} and is followed by an [Ealif]{.trn} the combination of the two is usually not replaced by [آ]{.ar} as is otherwise commonly done when the [Ealif]{.trn} is not part of a suffix and the hamza is not doubled.) Examples:  
-           [هَيْءَة]{.ar} [hayEao]{.trn}, [خَطِيءَة]{.ar} [xaTIEao]{.trn}  
-           [بَرِيءُونَ]{.ar} [barIEUna]{.trn}, [بَرِيءَانِ]{.ar} [barIEAni]{.trn}, [بَرِيءِينَ]{.ar} [barIEIna]{.trn}, [بَرِيءَيْنِ]{.ar} [barIEayni]{.trn}  
-           [شَيْءُهُ]{.ar} [cayEuhu]{.trn}, [شَيْءَهُ]{.ar} [cayEahu]{.trn}, [شَيْءِهِ]{.ar} [cayEihi]{.trn}, [شَيْءَانِ]{.ar} [cayEAni]{.trn}, [شَيْءَيْنِ]{.ar} [cayEayni]{.trn}  
-           [مَجِيءُهُ]{.ar} [majIEuhu]{.trn}, [مَجِيءَهُ]{.ar} [majIEahu]{.trn}, [مَجِيءِهِ]{.ar} [majIEihi]{.trn}  
-           [اسْتِيءَاس]{.ar} [EistIEAs]{.trn}, [اسْتِيءَار]{.ar} [EistIEAr]{.trn}, [اسْتِيءَال]{.ar} [EistIEAl]{.trn}.
-       ii. If the hamza is after a long-[U]{.trn} vowel or [aw]{.trn} diphthong, then:  
-           1. If the hamza has an [kasrao]{.trn} it is written seated on [yAE]{.trn}. Examples:
-              [سُوئِهِ]{.ar} [sUEihi]{.trn}, [ضَوْئِهِ]{.ar} [DawEihi]{.trn}  
-           2. Otherwise, the hamza is written unseated. (Note: if the hamza has a [fatHao]{.trn} and is not doubled and is followed by an [Ealif]{.trn} which is not part of a suffix, then the combination of unseated hamza and [Ealif]{.trn} is written as [آ]{.ar}.) Examples:
-              [سُوءَهُ]{.ar} [sUEahu]{.trn}, [سُوءَانِ]{.ar} [sUEAni]{.trn},  [تَوْءَم]{.ar} [tawEam]{.trn}, [ضَوْءَهُ]{.ar} [DawEahu]{.trn},  [ضَوْءَانِ]{.ar} [DawEAni]{.trn},  [سُوءُهُ]{.ar} [sUEuhu]{.trn},  [يَسُوءُونَ]{.ar} [yasUEUna]{.trn}, [نُوآنٌ]{.ar} [nUEAnun]{.trn}.
-      iii. If the hamza is after a long [A]{.trn}-vowel, then:
-           1. If the hamza has an [kasrao]{.trn} it is written seated on [yAE]{.trn}. Example: [سَائِل]{.ar} [sAEil]{.trn}.  
-           2. If the hamza has an [Dammao]{.trn} it is written seated on [wAw]{.trn}. Example: [تَسَاؤُل]{.ar} [tasAEul]{.trn}.  
-           3. Otherwise, when the hamza has an [fatHao]{.trn}, it is written unseated. Example: [تَسَاءَلَ]{.ar} [tasAEala]{.trn}, [قِرَاءَات]{.ar} [qirAEAt]{.trn}.
-   b. If the letter before the hamza has a [sukUn]{.trn} and is not [wAw]{.trn} or [yAE]{.trn} (in which case rule 2.a would apply), then:
-       i. If the hamza was originally at the end of the word, but a suffix has been attached to the word such that the hamza is now in the middle of the word, then the hamza will be written unseated. Examples: [جُزْءَانِ]{.ar} [juzEAni]{.trn}, [عِبْءَانِ]{.ar} [eibEAni]{.trn}, [عِبْءَيْنِ]{.ar} [eibEayni]{.trn}, [بُطْءَهُ]{.ar} [buTEahu]{.trn}, [بُطْءُهُ]{.ar} [buTEuhu]{.trn}, [بُطْءِهِ]{.ar} [buTEihi]{.trn}. ([انِ]{.ar}, [يْنِ]{.ar}, [هُ]{.ar}, and [هِ]{.ar} are suffixes).
-      ii. Otherwise, if the hamza is originally at the middle of the word, then:
-          1. If the hamza has a [Dammao]{.trn} it is written seated on [wAw]{.trn}. Example: [مَسْؤُول]{.ar} [masEUl]{.trn}.
-          2. If the hamza has a [kasrao]{.trn} it is written seated on [yAE]{.trn}. Example: [تَرْئِيس]{.ar} [tarEIs]{.trn}.  
-          3. If the hamza has an [fatHao]{.trn} then:  
-             a. If it is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the hamza is unseated followed by the [Ealif]{.trn} and the combination is written as [آ]{.ar}. Example: [مِرْآة]{.ar} [mirEAo]{.trn}, [ظَمْآن]{.ar} [PamEAn]{.trn}.  
-             b. Otherwise, if there is no [Ealif]{.trn} after the hamza, the hamza is written seated on [Ealif]{.trn}. Examples: [مَسْأَلَة]{.ar} [masEalao]{.trn}, [الْمَرْأَة]{.ar} [almarEao]{.trn}.
-   c. If the hamza has a [sukUn]{.trn}, then look at the vowel mark on the letter preceding it:
-        i. If the letter preceding hamza has a [kasrao]{.trn}, the hamza is written seated on [yAE]{.trn}. Example: [بِئْسَ]{.ar} [biEsa]{.trn}.
-       ii. If the letter preceding hamza has a [Dammao]{.trn}, the hamza is written seated on [wAw]{.trn}. Example: [سُؤْلَكَ]{.ar} [suElaka]{.trn}.
-      iii. If the letter preceding hamza has a [fatHao]{.trn}, the hamza is written seated on [Ealif]{.trn}. Example: [كَأْس]{.ar} [kaEs]{.trn}.
-   d. Otherwise, only if the above conditions are not satisfied, then compare the vowel marks of the hamza and the letter before it:
-        i. If either vowel mark is an [kasrao]{.trn} then the hamza will be written on a [yAE]{.trn}. Examples: [سُئِلَ]{.ar} [suEila]{.trn}, [يَئِسَ]{.ar} [yaEisa]{.trn}, [مُتَّكِئِينَ]{.ar} [muttakiEIna]{.trn}, [رَئِيس]{.ar} [raEIs]{.trn}.
-       ii. If neither vowel mark is an [kasrao]{.trn}, and at least one of the vowel marks is a [Dammao]{.trn}, then the hamza will be written on a [wAw]{.trn}. Examples: [سُؤَال]{.ar} [suEAl]{.trn}, [رُؤُوس]{.ar} [ruEUs]{.trn}, [لُؤَيّ]{.ar} [luEayy]{.trn}.
-      iii. Otherwise, if both of the vowel marks are [fatHao]{.trn}s, then:  
-           1. If the hamza is followed by a long-[A]{.trn} vowel represented by an [Ealif]{.trn}, the hamza is written unseated. Examples: [شَنَآن]{.ar} [canaEAn]{.trn}.  
-           2. Otherwise the hamza will be written on an [Ealif]{.trn}. Examples: [سَأَلَ]{.ar} [saEala]{.trn}, [رَأَىٰ]{.ar} [raEA]{.trn}.
+### At the end of the word
 
-      These set of rules apply even if the hamza or the previous letter is doubled. Examples [رَأَّسَ]{.ar} [raEEasa]{.trn}, [يُرَئِّسُ]{.ar} [yuraEEisu]{.trn}, [رُئِّسَ]{.ar} [ruEEisa]{.trn}, [تَفَؤُّل]{.ar} [tafaEEul]{.trn}, [يُبَرِّئُونَ]{.ar} [yubarriEUna]{.trn}, [يُبَرَّؤُونَ]{.ar} [yubarraEUna]{.trn}, [سَءَّال]{.ar} [saEEAl]{.trn}, [لَءَّال]{.ar} [laEEAl]{.trn}.
+When hamza occurs at the end of a word, disregard the vowel on hamza itself, and consider only the vowel on preceding consonant.
+Plug it into the table as above, and determine to determine the seat of hamza.
 
-3. If hamza is at the end of a word, disregard the vowel mark on it and consider only the letter before the hamza.
-   a. If there is a long vowel ([A]{.trn}, [I]{.trn}, [U]{.trn}) or a diphthong ([aw]{.trn}, [ay]{.trn}) before it then the hamza will be written unseated. Examples: [دُعَاءُ]{.ar} [dueAEu]{.trn}, [سُوءُ]{.ar} [sUEu]{.trn}, [جِيءَ]{.ar} [jIEa]{.trn}, [ضَوْءَ]{.ar} [DawEa]{.trn}, [شَيْءَ]{.ar} [cayEa]{.trn}.
-   b. Otherwise, if the previous letter has a [sukUn]{.trn}, the hamza will again be unseated. Examples: [بُطْءُ]{.ar} [buTEu]{.trn}, [عِبْءُ]{.ar} [eibEu]{.trn}, [شَطْءُ]{.ar} [caTEu]{.trn}
-   c. Otherwise, if the previous letter is a doubled [wAw]{.trn} with an [Dammao]{.trn}, the hamza will again be unseated. Example [تَبَوُّءُ]{.ar} [tabawwuEu]{.trn}.
-   d. Otherwise, if the previous letter has an:
-        i. [kasrao]{.trn}, the hamza is written seated on [yAE]{.trn}. Example [يُهَدِّئُ]{.ar} [yuhaddiEu]{.trn}, [سَيِّئُ]{.ar} [sayyiEu]{.trn}.
-       ii. [Dammao]{.trn}, the hamza is written seated on [wAw]{.trn}. Example [بَطُؤَ]{.ar} [baTuEa]{.trn}.
-      iii. [fatHao]{.trn}, the hamza is written seated on [Ealif]{.trn}. Example [يَهْدَأُ]{.ar} [yahdaEu]{.trn}, [مُبْتَدَإِ]{.ar} [mubtadaEi]{.trn}.
-     
+| Word | Vowel on consonant before hamza | Seated hamza |
+|:-----|:-|:------|
+| [دُعَاءُ]{.ar} [dueAEu]{.trn}     | [A]{.trn}  | [ء]{.ar} |
+| [سُوءُ]{.ar} [sUEu]{.trn}        | [U]{.trn}  | [ء]{.ar} |
+| [جِيءَ]{.ar} [jIEa]{.trn}        | [I]{.trn}  | [ء]{.ar} |
+| [ضَوْءَ]{.ar} [DawEa]{.trn}       | [aw]{.trn} | [ء]{.ar} |
+| [شَيْءَ]{.ar} [cayEa]{.trn}       | [ay]{.trn} | [ء]{.ar} |
+| [بُطْءُ]{.ar} [buTEu]{.trn}       | [◌ْ]{.ar}   | [ء]{.ar} |
+| [عِبْءُ]{.ar} [eibEu]{.trn}       | [◌ْ]{.ar}   | [ء]{.ar} |
+| [شَطْءُ]{.ar} [caTEu]{.trn}       | [◌ْ]{.ar}   | [ء]{.ar} |
+| [يُهَدِّئُ]{.ar} [yuhaddiEu]{.trn}  | [i]{.trn}  | [ئ]{.ar} |
+| [سَيِّئُ]{.ar} [sayyiEu]{.trn}     | [i]{.trn}  | [ئ]{.ar} |
+| [بَطُؤَ]{.ar} [baTuEa]{.trn}      | [u]{.trn}  | [ؤ]{.ar} |
+| [يَهْدَأُ]{.ar} [yahdaEu]{.trn}    | [a]{.trn}  | [أ]{.ar} |
+| [مُبْتَدَإِ]{.ar} [mubtadaEi]{.trn} | [a]{.trn}  | [إ]{.ar} |
+
+The exception to this rule is when the previous letter is a doubled [wAw]{.trn} with an [Dammao]{.trn}.
+In this case the hamza will again be unseated. Example [تَبَوُّءُ]{.ar} [tabawwuEu]{.trn}.
+
+Note also that [مُبْتَدَإِ]{.ar} [mubtadaEi]{.trn} can be written with the hamza below the [Ealif]{.trn} because of the [i]{.trn}-mark on the hamza.
+But it is also common to write it as [مُبْتَدَأ]{.ar} [mubtadaE]{.trn}, especially when the hamza is unvoweled.
+
 ## Prefixes and suffixes
 
-+ If hamza is in the beginning of a word, adding a prefix to the word will not alter the writing of the hamza. Examples:  
-  [لِ + أُسْتَاذِ = لِأُسْتَاذِ]{.ar}  
-  [الْ + آخِرَة = الْآخِرَة]{.ar}
+### Prefixes
 
-+ If hamza is at the end of a word, adding a suffix to the word can, in general, alter the writing of the hamza, except in cases that have already been mentioned above. Examples:  
-  [مُبْتَدَأَ + انِ = مُبْتَدَءَانِ]{.ar}  
-  [دُعَاءُ + هُ = دُعَاؤُهُ]{.ar}  
-  [ضَوْءِ + هِ = ضَوْئِهِ]{.ar}  
-  [بُطْءُ + هُ = بُطْءُهُ]{.ar}
+If hamza is in the beginning of a word, adding a prefix to the word will not alter the writing of the hamza. Examples:  
 
-+ As we mentioned earlier, when unseated hamza is followed by an [Ealif]{.trn} which is not a suffix: [ءا]{.ar},  the combination of hamza and [Ealif]{.trn} is conventionally written as [آ]{.ar}. However, if the unseated hamza is doubled or preceded by another [Ealif]{.trn} then it won't be written as [آ]{.ar}. Example: [سَءَّال]{.ar} [saEEAl]{.trn}, [قِرَاءَات]{.ar} [qirAEAt]{.trn}.
++ [لِ + أُسْتَاذِ = لِأُسْتَاذِ]{.ar}  
++ [الْ + آخِرَة = الْآخِرَة]{.ar}
 
-# [tanwIn]{.trn} on final hamza
+### Suffixes
+
+If hamza is at the end of a word, adding a suffix to the word can, in general, alter the writing of the hamza. 
+Hamza is now, generally, treated as if it is in the middle of the word, and the rules for hamza in the middle of a word apply.
+Examples:  
+
+| Word | Vowel on consonant before hamza | Shortened vowel on hamza | Winning vowel | Seated hamza |
+|:-----|:-|:-|:-|:------|
+| [بَرِيءُونَ]{.ar} [barIEUna]{.trn}     | [I]{.trn}  | [u]{.trn} | [I]{.trn}   | [ء]{.trn} |
+| [بَرِيءَانِ]{.ar} [barIEAni]{.trn}     | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.trn} |
+| [بَرِيءِينَ]{.ar} [barIEIna]{.trn}     | [I]{.trn}  | [i]{.trn} | [I]{.trn}   | [ء]{.trn} |
+| [بَرِيءَيْنِ]{.ar} [barIEayni]{.trn}    | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.trn} |
+| [شَيْءُهُ]{.ar} [cayEuhu]{.trn}        | [ay]{.trn} | [u]{.trn} | [ay]{.trn}  | [ء]{.trn} |
+| [شَيْءَهُ]{.ar} [cayEahu]{.trn}        | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.trn} |
+| [شَيْءِهِ]{.ar} [cayEihi]{.trn}        | [ay]{.trn} | [i]{.trn} | [ay]{.trn}  | [ء]{.trn} |
+| [شَيْءَانِ]{.ar} [cayEAni]{.trn}       | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.trn} |
+| [شَيْءَيْنِ]{.ar} [cayEayni]{.trn}      | [ay]{.trn} | [a]{.trn} | [ay]{.trn}  | [ء]{.trn} |
+| [مَجِيءُهُ]{.ar} [majIEuhu]{.trn}      | [I]{.trn}  | [u]{.trn} | [I]{.trn}   | [ء]{.trn} |
+| [مَجِيءَهُ]{.ar} [majIEahu]{.trn}      | [I]{.trn}  | [a]{.trn} | [I]{.trn}   | [ء]{.trn} |
+| [مَجِيءِهِ]{.ar} [majIEihi]{.trn}      | [I]{.trn}  | [i]{.trn} | [I]{.trn}   | [ء]{.trn} |
+| [سُوئِهِ]{.ar} [sUEihi]{.trn}         | [U]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.trn} |
+| [ضَوْئِهِ]{.ar} [DawEihi]{.trn}        | [aw]{.trn} | [i]{.trn} | [i]{.trn}   | [ئ]{.trn} |
+| [سُوءَهُ]{.ar} [sUEahu]{.trn}         | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.trn} |
+| [سُوءَانِ]{.ar} [sUEAni]{.trn}        | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.trn} |
+| [ضَوْءَهُ]{.ar} [DawEahu]{.trn}        | [aw]{.trn} | [a]{.trn} | [aw]{.trn}  | [ء]{.trn} |
+| [ضَوْءَانِ]{.ar} [DawEAni]{.trn}       | [aw]{.trn} | [a]{.trn} | [aw]{.trn}  | [ء]{.trn} |
+| [سُوءُهُ]{.ar} [sUEuhu]{.trn}         | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.trn} |
+| [يَسُوءُونَ]{.ar} [yasUEUna]{.trn}     | [U]{.trn}  | [u]{.trn} | [U]{.trn}   | [ء]{.trn} |
+| [نُوآنٌ]{.ar} [nUEAnun]{.trn}.       | [U]{.trn}  | [a]{.trn} | [U]{.trn}   | [ء]{.trn} |
+| [مُتَّكِئِينَ]{.ar} [muttakiEIna]{.trn}  | [i]{.trn}  | [i]{.trn} | [i]{.trn}   | [ئ]{.trn} |
+| [يُبَرِّئُونَ]{.ar} [yubarriEUna]{.trn}  | [i]{.trn}  | [u]{.trn} | [i]{.trn}   | [ئ]{.trn} |
+| [يُبَرَّؤُونَ]{.ar} [yubarraEUna]{.trn}  | [a]{.trn}  | [u]{.trn} | [u]{.trn}   | [ؤ]{.trn} |
+
+There are some exceptions:
+
+If the letter before the hamza has a [sukUn]{.trn} and is not [wAw]{.trn} or [yAE]{.trn},
+then the hamza will be written unseated. Examples:
+
++  [جُزْءَانِ]{.ar} [juzEAni]{.trn}  
++  [عِبْءَانِ]{.ar} [eibEAni]{.trn}  
++  [عِبْءَيْنِ]{.ar} [eibEayni]{.trn}  
++  [بُطْءَهُ]{.ar} [buTEahu]{.trn}  
++  [بُطْءُهُ]{.ar} [buTEuhu]{.trn}  
++  [بُطْءِهِ]{.ar} [buTEihi]{.trn}
+
+([انِ]{.ar}, [يْنِ]{.ar}, [هُ]{.ar}, and [هِ]{.ar} are suffixes.)
+
+## [tanwIn]{.trn} on final hamza
 
 [tanwIn]{.trn} on a final hamza does not affect the writing of the hamza except in the case of [tanwIn al-fatH]{.trn}. When writing [tanwIn al-fatH]{.trn} on a hamza at the end of a word:
 
@@ -181,7 +254,7 @@ This is the basic underlying principle although there are a few exceptions. We n
 + [جُزْء]{.ar} becomes [جُزْءٌ، جُزْءًا، جُزْءٍ]{.ar}
 + [شَيْء]{.ar} becomes [شَيْءٌ، شَيْءًا، شَيْءٍ]{.ar}
 
-# Variants
+## Variants
 
 There are some historical and regional variants to the above rules. The main one is a variant of rule 2.b.ii above. In this variant, when the letter before hamza has a [sukUn]{.trn}, the hamza is generally written unseated. So they write:
 
