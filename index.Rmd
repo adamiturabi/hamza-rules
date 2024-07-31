@@ -108,8 +108,8 @@ The most general case is when hamza is in the middle of a word.
 
 Arabic has three short vowels, three long vowels, two diphthongs, and a [sukUn]{.trn}. Each of these has an order of precedence and a hamza seat.
 
-Precedence | Vowel | Seat 
-:--|:------|:--------|:------
+Precedence | Vowel | Seated hamzah
+:--|:------|:---
 1. | [I]{.trn}/[ay]{.trn} | [ء]{.ar}
 2. | [i]{.trn}            | [ئ]{.ar}
 3. | [U]{.trn}/[aw]{.trn} | [ء]{.ar}
