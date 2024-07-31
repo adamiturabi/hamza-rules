@@ -82,11 +82,12 @@ So how do we know when to write hamza unseated and when seated? And how do we ch
 
 # Rules for determining the seat of hamza
 
-## Separate main word from prefixes and suffixes
+## Without prefixes and suffixes
 
-In order to determine the seat of hamza for a words, we must first separate the main word from any prefixes and suffixes.
-We will determine the seat of hamza for the main word first.
-Hamza can occur in three positions in the main word:
+We will first learn how to determine the seat of hamzah for a word
+without any prefix or suffix.
+
+Hamzah can occur in three positions in a word:
 
 1. At the beginning of the word
 1. In the middle of the word
@@ -140,7 +141,7 @@ Examples:
 | [مَسْأَلَة]{.ar} [masEalao]{.trn}  | [◌ْ]{.ar}   | [a]{.trn}  | [a]{.trn}  | [أ]{.ar} |
 | [الْمَرْأَة]{.ar} [almarEao]{.trn} | [◌ْ]{.ar}   | [a]{.trn}  | [a]{.trn}  | [أ]{.ar} |
 | [بِئْسَ]{.ar} [biEsa]{.trn}       | [i]{.trn}  | [◌ْ]{.ar}   | [i]{.trn}  | [ئ]{.ar} |
-| [سُؤْلَكَ]{.ar} [suElaka]{.trn}    | [u]{.trn}  | [◌ْ]{.ar}   | [u]{.trn}  | [ؤ]{.ar} |
+| [سُؤْل]{.ar} [suEl]{.trn}        | [u]{.trn}  | [◌ْ]{.ar}   | [u]{.trn}  | [ؤ]{.ar} |
 | [كَأْس]{.ar} [kaEs]{.trn}        | [a]{.trn}  | [◌ْ]{.ar}   | [a]{.trn}  | [أ]{.ar} |
 | [سُئِلَ]{.ar} [suEila]{.trn}      | [u]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.ar} |
 | [يَئِسَ]{.ar} [yaEisa]{.trn}      | [a]{.trn}  | [i]{.trn}  | [i]{.trn}  | [ئ]{.ar} |
@@ -161,7 +162,7 @@ Examples:
 ### At the end of the word
 
 When hamza occurs at the end of a word, disregard the vowel on hamza itself, and consider only the vowel on preceding consonant.
-Plug it into the table as above, and determine to determine the seat of hamza.
+Plug it into the precedence table as above to determine the seat of hamza.
 
 | Word | Vowel on consonant before hamza | Seated hamza |
 |:-----|:-|:------|
@@ -240,6 +241,7 @@ then the hamza will be written unseated. Examples:
 +  [بُطْءِهِ]{.ar} [buTEihi]{.trn}
 
 ([انِ]{.ar}, [يْنِ]{.ar}, [هُ]{.ar}, and [هِ]{.ar} are suffixes.)
+Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [Ealif]{.trn2} is part of the suffix.
 
 ## [tanwIn]{.trn} on final hamza
 
@@ -253,6 +255,8 @@ then the hamza will be written unseated. Examples:
 + [مَلْجَأ]{.ar} becomes [مَلْجَأٌ، مَلْجَءًا، مَلْجَإٍ]{.ar}
 + [جُزْء]{.ar} becomes [جُزْءٌ، جُزْءًا، جُزْءٍ]{.ar}
 + [شَيْء]{.ar} becomes [شَيْءٌ، شَيْءًا، شَيْءٍ]{.ar}
++ [سَيِّئ]{.tradar} becomes [سَيِّئٌ, سَيِّئًا, سَيِّئٍ]{.tradar}
++ [تَبَوُّء]{.tradar} becomes [تَبَوُّءٌ, تَبَوُّءًا, تَبَوُّءٍ]{.tradar}
 
 ## Variants
 
