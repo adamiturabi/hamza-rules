@@ -263,7 +263,6 @@ Note that the combination [ءا]{.ar} is not written as [آ]{.ar} when the [Eali
 + [جُزْء]{.ar} becomes [جُزْءٌ، جُزْءًا، جُزْءٍ]{.ar}
 + [شَيْء]{.ar} becomes [شَيْءٌ، شَيْءًا، شَيْءٍ]{.ar}
 + [سَيِّئ]{.ar} becomes [سَيِّئٌ, سَيِّئًا, سَيِّئٍ]{.ar}
-+ [تَبَوُّء]{.ar} becomes [تَبَوُّءٌ, تَبَوُّءًا, تَبَوُّءٍ]{.ar}
 
 ## Variants {#hamza-variants}
 
