@@ -1,3 +1,0 @@
-rmd_files:
-  html: ["index.Rmd"]
-output_dir: "docs"

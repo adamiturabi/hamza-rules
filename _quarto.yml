@@ -1,0 +1,99 @@
+project:
+  #type: book
+  output-dir: docs
+  #pre-render:
+  #  #- scripts/prerender_subs.py
+  #  #- scripts/add_auto_crossrefs.py
+  #post-render:
+  #  #- "rm -rf images"
+  #  #- "rm -rf content/images"
+  #  - "rm -rf content/*_files"
+
+title: "Rules for writing hamza"
+
+format:
+  html:
+    mainfont: "CharisW"
+    mainfontoptions: Numbers=OldStyle
+    sansfont: "CharisW"
+    monofont: "DejaVu Sans Mono" # set size in CSS using class "sourceCode"
+    #fontsize: 10pt
+    theme:
+      - cosmo # body text is a little grey which is good.
+      - srchtml/custom.scss
+    css: srchtml/styles.css
+    #include-before-body: srchtml/watermark.html
+    linkcolor: "hsl(210,10.3448275862%,47.7450980392%)" # obtained by inspecting webpage
+    toc-title: "Chapter contents"
+    # background color. see also srchtml/custom.scss
+    backgroundcolor: "#FDFBF7" # ultra light ivory
+    #backgroundcolor: "#FCFBF9" # soft powder
+    #backgroundcolor: "#FAF9F5" # alabaster
+    #backgroundcolor: "#F7F6F0" # warm linen
+    #backgroundcolor: "#F7F4F0" # warm linen less green
+
+  pdf:
+    #keep-tex: true
+    #documentclass: scrreprt # no roman numeral pagination but chapter page can be left or right
+    #documentclass: scrbook # new chapter page only on right but adds \frontmatter command for roman numeral pagination
+    #toc: true
+    #toc-depth: 2
+    #toc-title: Contents
+    # DON'T USE geometry PACKAGE BECAUSE IT MESSES WITH WORD WRAP IN MARGIN ASIDES. USE NATIVE KOMASCRIPT TYPEAREA AND AREASETOPTIONS IN include-in-header
+    # === PAGE DESIGN ===
+    # font size and top,bottom,outer margins match my measurements of some books from my library
+    # not using classical page design canons or KOMA typearea because it gives too large bottom margin
+    # text width calibrated to approx 70-80 characters per line (counting spaces and punctuation). 
+    # Comes out to 4.3125in.
+    # This is more than 'optimal' 66 per line because we need horizontal text width for table content.
+    # inner margin should be 1/2 of outer margin + binding offset = 1.0625/2 + 0.2 = 0.73125
+    # So paper width = inner + textwidth + outer = 0.73125 + 4.3125 + 1.0625 = 6.10625in.
+    # Selecting 6.14in x 9.21in as closest industry size
+    #geometry:
+    #  # A4 2 pages per sheet draft
+    #  #- paper=a5paper               # a5: 148.5 by 210mm
+    #  - paperwidth=6.14in
+    #  - paperheight=9.21in
+    #  - inner=0.73125in
+    #  - outer=1.0625in
+    #  - top=0.84375in
+    #  - bottom=1.0625in
+    #  #- bindingoffset=6mm
+    #  #- textwidth=114.8mm           # = (170 - 6)*0.7
+    #  #- textheight=170.8mm          # = 244 * 0.7
+    #  - twoside
+    number-sections: true
+    colorlinks: true
+    mainfont: "Charis"
+    mainfontoptions:
+      - Numbers=OldStyle
+      - BoldFont="Charis SemiBold"
+    sansfont: "Charis"
+    sansfontoptions:
+      - Numbers=OldStyle
+      - BoldFont="Charis SemiBold"
+    monofont: "DejaVu Sans Mono"
+    monofontoptions: "Scale=0.7"
+    fontsize: 9pt
+    indent: true # indent first line of paragraph. Also seems to disable extra paragraph vertical spacing.
+    #pdf-engine: xelatex
+    #include-in-header:
+    #  - file: srctex/include_in_header.tex
+    #include-before-body:
+    #  - file: srctex/before_body.tex
+    template-partials:
+      - srctex/before-title.tex
+    #block-headings: false
+
+#keep-md: true
+filters:
+  - arabic-support
+  - adamiturabi/tikz
+  #- filters/autoref-link.lua
+  #- filters/lingex.lua
+  - filters/footnotesize.lua
+  - filters/citex.lua
+  - filters/translation.lua
+  - filters/reset-examples.lua
+
+
